@@ -373,15 +373,15 @@ change `name:` in `render.yaml`, commit, and sync the Blueprint again.
 ### 4. Find the public HTTPS URL
 
 After the deploy succeeds, open the service in the Render Dashboard. The URL is
-shown at the top, normally:
+shown at the top. This project is currently deployed at:
 
 ```text
-https://career-ai.onrender.com
+https://career-ai-qbnx.onrender.com
 ```
 
-Render may append a suffix if the requested name is unavailable. Use the exact
-URL shown in your dashboard; no URL is claimed here until your own deploy
-succeeds.
+Render appends a suffix when the requested name is unavailable, which is why this
+instance is `career-ai-qbnx` rather than `career-ai`. Always use the exact URL in
+your own dashboard; a separate deployment gets its own name.
 
 ### 5. Verify the deployed site
 
