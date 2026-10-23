@@ -1,0 +1,21 @@
+# Render Blueprint for CareerAI.
+# This file lives at the repository root; the application lives in career-ai/.
+# Both commands below are run from the repository root.
+services:
+  - type: web
+    name: career-ai
+    runtime: python
+    plan: free
+    buildCommand: pip install -r career-ai/backend/requirements.txt
+    startCommand: uvicorn app.main:app --app-dir career-ai/backend --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      # Fully qualified version (Render's default changes over time).
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      # Free Render services use an ephemeral filesystem. The SQLite catalog is
+      # disposable and is recreated/seeded from career-ai/backend/app/data/careers.json
+      # on every start.
+      - key: CAREERAI_DATABASE_URL
+        value: sqlite:////tmp/careerai.db

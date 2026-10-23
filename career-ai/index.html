@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CareerAI is a student-friendly career exploration prototype that suggests careers based on your skills, interests, academics, and work preferences.">
+  <title>CareerAI — Discover the Career That Fits You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================= NAVBAR ============================= -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar container" aria-label="Primary">
+      <a class="brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+            <path d="M16 3l3.4 7.1 7.6 1.1-5.5 5.4 1.3 7.6L16 20.7 9.2 24.2l1.3-7.6L5 11.2l7.6-1.1L16 3z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">Career<em>AI</em></span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open navigation menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-menu" id="primary-menu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#assessment" class="nav-link">Career Assessment</a></li>
+          <li><a href="#explore" class="nav-link">Explore Careers</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+        <a href="#assessment" class="btn btn-primary nav-cta">Get Started</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Service connection status (hidden when the API is healthy) -->
+    <div class="container">
+      <div class="api-banner" id="api-banner" role="status" aria-live="polite" hidden>
+        <span class="api-dot" aria-hidden="true"></span>
+        <p class="api-banner-text" id="api-banner-text"></p>
+        <button type="button" class="link-btn" id="api-banner-retry" hidden>Retry connection</button>
+      </div>
+    </div>
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Career discovery for students</p>
+          <h1 class="hero-title">Discover the Career That Fits&nbsp;You.</h1>
+          <p class="hero-lead">
+            Answer a short, guided assessment about your skills, interests, and studies.
+            CareerAI compares your profile with real career outlines and shows you where
+            you align — and what to work on next.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#assessment" class="btn btn-primary btn-lg">
+              Find My Career
+              <svg class="btn-icon" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true">
+                <path d="M4 10h10.2l-3.6-3.6L12 5l6 5-6 5-1.4-1.4 3.6-3.6H4z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="#explore" class="btn btn-ghost btn-lg">Explore Careers</a>
+          </div>
+
+          <ul class="hero-stats" aria-label="Project highlights">
+            <li><strong id="stat-careers">—</strong><span>Career profiles</span></li>
+            <li><strong id="stat-categories">—</strong><span>Categories</span></li>
+            <li><strong>5</strong><span>Assessment steps</span></li>
+          </ul>
+
+          <ul class="hero-highlights">
+            <li>
+              <span class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+              </span>
+              Match reasons you can actually read and verify
+            </li>
+            <li>
+              <span class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+              </span>
+              Skill-gap analysis for every recommendation
+            </li>
+            <li>
+              <span class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+              </span>
+              Beginner roadmaps and project ideas per career
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <figure class="visual-card">
+            <figcaption class="visual-caption">Your profile, matched to careers</figcaption>
+
+            <div class="match-card match-card-1">
+              <span class="match-avatar" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13.5 6l-3 12"/></svg>
+              </span>
+              <div class="match-info">
+                <p class="match-role">Software Developer</p>
+                <div class="match-bar" role="presentation"><span style="width: 92%"></span></div>
+              </div>
+              <span class="match-tag tag-strong">Strong fit</span>
+            </div>
+
+            <div class="match-card match-card-2">
+              <span class="match-avatar avatar-pink" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/></svg>
+              </span>
+              <div class="match-info">
+                <p class="match-role">UI/UX Designer</p>
+                <div class="match-bar" role="presentation"><span style="width: 74%"></span></div>
+              </div>
+              <span class="match-tag tag-good">Good fit</span>
+            </div>
+
+            <div class="match-card match-card-3">
+              <span class="match-avatar avatar-blue" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19V5M4 19h16"/><rect x="7" y="10" width="3" height="6"/><rect x="13" y="6" width="3" height="10"/></svg>
+              </span>
+              <div class="match-info">
+                <p class="match-role">Data Analyst</p>
+                <div class="match-bar" role="presentation"><span style="width: 63%"></span></div>
+              </div>
+              <span class="match-tag tag-good">Good fit</span>
+            </div>
+
+            <div class="visual-note">
+              Illustrative example — your scores are calculated from your own answers.
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================== ASSESSMENT =========================== -->
+    <section class="section assessment" id="assessment">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Career assessment</p>
+          <h2 class="section-title">Five quick steps to your profile</h2>
+          <p class="section-lead">
+            There are no right or wrong answers. Your entries stay in this browser tab —
+            nothing is uploaded, and you can restart at any time.
+          </p>
+        </header>
+
+        <div class="assessment-card">
+          <!-- Progress -->
+          <div class="progress-area">
+            <ol class="step-list" id="step-list" aria-label="Assessment progress">
+              <li class="step-dot is-active" data-step-dot="1"><span class="dot-num">1</span><span class="dot-label">About you</span></li>
+              <li class="step-dot" data-step-dot="2"><span class="dot-num">2</span><span class="dot-label">Skills</span></li>
+              <li class="step-dot" data-step-dot="3"><span class="dot-num">3</span><span class="dot-label">Interests</span></li>
+              <li class="step-dot" data-step-dot="4"><span class="dot-num">4</span><span class="dot-label">Academics</span></li>
+              <li class="step-dot" data-step-dot="5"><span class="dot-num">5</span><span class="dot-label">Preferences</span></li>
+            </ol>
+            <div class="progress-track" role="progressbar" id="progress-bar"
+                 aria-valuemin="1" aria-valuemax="5" aria-valuenow="1" aria-label="Assessment step">
+              <span class="progress-fill" id="progress-fill"></span>
+            </div>
+            <p class="progress-text" id="progress-text">Step 1 of 5 — About you</p>
+          </div>
+
+          <p class="form-alert" id="form-alert" role="alert" aria-live="assertive" hidden></p>
+
+          <form id="assessment-form" novalidate>
+            <!-- Step 1: About you -->
+            <fieldset class="form-step is-active" data-step="1">
+              <legend class="step-legend">Step 1 — About you</legend>
+              <p class="step-hint">Only your education level and branch are required. Everything else is optional.</p>
+
+              <div class="field-grid">
+                <div class="field">
+                  <label for="f-name">Your name <span class="optional">(optional)</span></label>
+                  <input type="text" id="f-name" name="name" autocomplete="given-name" maxlength="60" placeholder="e.g. Ananya">
+                </div>
+
+                <div class="field">
+                  <label for="f-education">Education level <span class="req">required</span></label>
+                  <select id="f-education" name="education" required aria-describedby="f-education-hint">
+                    <option value="">Select your current level</option>
+                  </select>
+                  <p class="field-hint" id="f-education-hint">Choose the level you are currently at.</p>
+                </div>
+
+                <div class="field">
+                  <label for="f-branch">Academic branch or stream <span class="req">required</span></label>
+                  <select id="f-branch" name="branch" required>
+                    <option value="">Select your branch or stream</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="f-percent">Overall academic percentage <span class="optional">(optional)</span></label>
+                  <input type="number" id="f-percent" name="percent" min="0" max="100" step="0.1" inputmode="decimal" placeholder="0 – 100" aria-describedby="f-percent-hint">
+                  <p class="field-hint" id="f-percent-hint">Used only as context; it never overrides your subject marks.</p>
+                </div>
+
+                <div class="field field-span">
+                  <label for="f-country">Country or preferred job market <span class="optional">(optional)</span></label>
+                  <input type="text" id="f-country" name="country" autocomplete="country-name" maxlength="60" placeholder="e.g. India">
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Step 2: Skills -->
+            <fieldset class="form-step" data-step="2">
+              <legend class="step-legend">Step 2 — Skills</legend>
+              <p class="step-hint">Pick at least <strong>3 skills</strong> you have. Rate each one from 1 (beginner) to 5 (advanced) — the rating is optional but improves matching.</p>
+              <div class="option-grid" id="skills-grid"></div>
+              <p class="field-hint">Tip: rate honestly. The scores only work if they reflect you.</p>
+            </fieldset>
+
+            <!-- Step 3: Interests -->
+            <fieldset class="form-step" data-step="3">
+              <legend class="step-legend">Step 3 — Interests</legend>
+              <p class="step-hint">Select at least <strong>2 areas</strong> you genuinely enjoy thinking about or doing.</p>
+              <div class="option-grid option-grid-interests" id="interests-grid"></div>
+            </fieldset>
+
+            <!-- Step 4: Academic performance -->
+            <fieldset class="form-step" data-step="4">
+              <legend class="step-legend">Step 4 — Academic performance</legend>
+              <p class="step-hint">Optional. Drag a slider to record a mark, or tick <em>“Not applicable”</em> for subjects you don’t study. You can skip this step entirely.</p>
+              <div class="subject-list" id="subjects-list"></div>
+            </fieldset>
+
+            <!-- Step 5: Career preferences -->
+            <fieldset class="form-step" data-step="5">
+              <legend class="step-legend">Step 5 — Career preferences</legend>
+              <p class="step-hint">Select at least <strong>1 work style</strong> you would enjoy. Choose as many as apply.</p>
+              <div class="option-grid option-grid-styles" id="styles-grid"></div>
+
+              <div class="review-box" id="review-box">
+                <h3 class="review-title">Ready to generate</h3>
+                <ul class="review-list" id="review-list"></ul>
+              </div>
+            </fieldset>
+
+            <!-- Nav -->
+            <div class="form-nav">
+              <button type="button" class="btn btn-ghost" id="btn-back" hidden>Back</button>
+              <div class="form-nav-right">
+                <button type="button" class="btn btn-primary" id="btn-next">Continue</button>
+                <button type="submit" class="btn btn-accent" id="btn-generate" hidden>
+                  Generate My Recommendations
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div class="assessment-footer">
+            <button type="button" class="link-btn" id="btn-restart">Restart assessment</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= RESULTS ============================ -->
+    <section class="section results" id="results" hidden>
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Your results</p>
+          <h2 class="section-title" id="results-title">Your career matches</h2>
+          <p class="section-lead" id="results-subtitle">
+            Scores below are <strong>indicative profile matches</strong> — how closely a
+            career aligns with your answers. They are not probabilities of career success.
+          </p>
+          <p class="results-source" id="results-source" hidden></p>
+        </header>
+
+        <div class="processing-state" id="processing-state" hidden>
+          <span class="spinner" aria-hidden="true"></span>
+          <p id="processing-text">Comparing your profile with career outlines…</p>
+        </div>
+
+        <div class="results-error" id="results-error" hidden role="alert">
+          <h3 id="results-error-title">We couldn’t load your recommendations</h3>
+          <p id="results-error-text"></p>
+          <div class="results-error-actions">
+            <button type="button" class="btn btn-primary" id="btn-retry-recommendations">Retry</button>
+            <button type="button" class="btn btn-ghost" id="btn-demo-mode">Use demo mode</button>
+          </div>
+          <p class="results-error-note">
+            Demo mode runs the bundled rule engine in your browser instead of the backend.
+            It is an explicit offline preview; results may differ from the live service.
+          </p>
+        </div>
+
+        <div class="empty-state" id="results-empty" hidden>
+          <span class="empty-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/><path d="M8 11h6"/></svg>
+          </span>
+          <h3>Not enough information yet</h3>
+          <p id="results-empty-text">Complete at least two sections of the assessment so the matching has something to work with.</p>
+          <a href="#assessment" class="btn btn-primary">Go back to the assessment</a>
+        </div>
+
+        <div id="results-content" hidden>
+          <details class="weights-note">
+            <summary>How these scores are calculated</summary>
+            <p>This prototype is a transparent rule-based engine (not a trained AI model).
+               Each component is normalized to 0–100, then combined using fixed weights.
+               If you skip a section, its weight is shared out among the sections you did answer,
+               and the result is scaled down by your profile coverage — so an incomplete
+               profile cannot reach a perfect 100.</p>
+            <ul>
+              <li><strong>Skills</strong> — 40%</li>
+              <li><strong>Interests</strong> — 25%</li>
+              <li><strong>Academics</strong> — 20%</li>
+              <li><strong>Work preferences</strong> — 15%</li>
+            </ul>
+          </details>
+
+          <ol class="results-list" id="results-list"></ol>
+
+          <div class="results-actions">
+            <button type="button" class="btn btn-ghost" id="btn-more-results">Show all ranked careers</button>
+            <a href="#explore" class="btn btn-ghost">Browse career directory</a>
+            <button type="button" class="btn btn-primary" id="btn-retake">Retake assessment</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= EXPLORE ============================ -->
+    <section class="section explore" id="explore">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Career directory</p>
+          <h2 class="section-title">Explore careers</h2>
+          <p class="section-lead">
+            Browse <span id="explore-count">—</span> career profiles with skills,
+            education pathways, project ideas, and learning roadmaps. Search or filter by category.
+          </p>
+        </header>
+
+        <div class="explore-tools">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <label for="career-search" class="visually-hidden">Search careers by title, skill, or keyword</label>
+            <input type="search" id="career-search" placeholder="Search careers, skills, or keywords…" autocomplete="off">
+            <button type="button" class="search-clear" id="search-clear" aria-label="Clear search" hidden>×</button>
+          </div>
+          <div class="filter-chips" id="filter-chips" role="group" aria-label="Filter careers by category"></div>
+        </div>
+
+        <p class="results-count" id="explore-status" role="status" aria-live="polite"></p>
+
+        <div class="career-grid" id="career-grid"></div>
+
+        <div class="empty-state" id="explore-empty" hidden>
+          <span class="empty-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/><path d="M8 11h6"/></svg>
+          </span>
+          <h3>No careers match that search</h3>
+          <p>Try a different keyword, or clear the filters to see every career.</p>
+          <button type="button" class="btn btn-primary" id="btn-clear-filters">Clear search and filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================= -->
+    <section class="section about" id="about">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">About</p>
+          <h2 class="section-title">What CareerAI is — and what it isn’t</h2>
+        </header>
+
+        <div class="about-grid">
+          <article class="about-card">
+            <span class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            </span>
+            <h3>Why it exists</h3>
+            <p>
+              Students are often asked to choose a career before they understand what careers
+              actually involve. CareerAI is a structured way to explore: it turns your skills,
+              interests, marks, and work-style preferences into a ranked shortlist you can
+              investigate further.
+            </p>
+          </article>
+
+          <article class="about-card">
+            <span class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+            </span>
+            <h3>How the current prototype works</h3>
+            <p>
+              The site is now full-stack. A <strong>Python FastAPI service</strong> backed by
+              SQLite stores the 17 career profiles and runs a transparent
+              <strong>rule-based matching engine</strong> — not a trained AI model. It compares
+              your profile against career outlines on four axes: skills (40%), interests (25%),
+              academics (20%), and work preferences (15%). Every score on screen can be
+              explained by those rules, skipped sections have their weight shared out, and
+              incomplete profiles are scaled down by coverage.
+            </p>
+          </article>
+
+          <article class="about-card">
+            <span class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+            </span>
+            <h3>What it is not</h3>
+            <p>
+              Recommendations here support career <em>exploration</em>. They do not predict
+              aptitude, guarantee outcomes, or determine a student’s future. Match scores are
+              indicative profile matches, never probabilities of success. Always talk to
+              teachers, counsellors, and people working in a field before deciding.
+            </p>
+          </article>
+
+          <article class="about-card">
+            <span class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+            </span>
+            <h3>How it is built</h3>
+            <p>
+              The browser calls the local API for the career catalog, detail views, and
+              recommendations. The same rule engine is mirrored in JavaScript only for an
+              explicit offline <strong>demo mode</strong> and for automated parity tests.
+              No external AI service or API key is used, and assessment answers are not
+              stored on the server.
+            </p>
+          </article>
+        </div>
+
+        <div class="about-banner">
+          <div>
+            <h3>How it can help you</h3>
+            <p>
+              Use the results as a starting point: open any recommended career, read its
+              roadmap, try a beginner project, and revisit the assessment as your skills grow.
+            </p>
+          </div>
+          <a href="#assessment" class="btn btn-light">Start the assessment</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="26" height="26" fill="none">
+              <path d="M16 3l3.4 7.1 7.6 1.1-5.5 5.4 1.3 7.6L16 20.7 9.2 24.2l1.3-7.6L5 11.2l7.6-1.1L16 3z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text">Career<em>AI</em></span>
+        </a>
+        <p>
+          A student-friendly prototype that helps you explore careers through your skills,
+          interests, academics, and preferences — with transparent, explainable matching.
+        </p>
+      </div>
+
+      <nav class="footer-col" aria-label="Site navigation">
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#assessment">Career Assessment</a></li>
+          <li><a href="#results" id="footer-results-link">Your Results</a></li>
+          <li><a href="#explore">Explore Careers</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="Career categories">
+        <h3>Career sections</h3>
+        <ul id="footer-categories"></ul>
+      </nav>
+
+      <div class="footer-col">
+        <h3>Project</h3>
+        <ul>
+          <li><a href="#about">How matching works</a></li>
+          <li><span class="footer-static">Rule-based prototype · no AI service</span></li>
+          <li><span class="footer-static">No accounts, tracking, or data upload</span></li>
+          <li><span class="footer-static">HTML · CSS · Vanilla JavaScript</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="footer-year">2026</span> CareerAI — built as a college project for career exploration.</p>
+      <p class="footer-note">Recommendations are indicative and do not determine anyone’s future.</p>
+    </div>
+  </footer>
+
+  <!-- ========================== CAREER MODAL =========================== -->
+  <div class="modal-backdrop" id="career-modal" hidden>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" id="modal-dialog">
+      <button type="button" class="modal-close" id="modal-close" aria-label="Close career details">×</button>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="careers-data.js"></script>
+  <script src="recommendation-engine.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

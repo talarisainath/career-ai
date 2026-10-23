@@ -1,0 +1,1370 @@
+{
+  "meta": {
+    "skillLabels": {
+      "programming": "Programming",
+      "mathematics": "Mathematics",
+      "problem-solving": "Problem-solving",
+      "communication": "Communication",
+      "creativity": "Creativity",
+      "leadership": "Leadership",
+      "data-analysis": "Data analysis",
+      "design": "Design",
+      "electronics": "Electronics",
+      "mechanical": "Mechanical aptitude",
+      "research": "Research",
+      "writing": "Writing",
+      "business-analysis": "Business analysis",
+      "teamwork": "Teamwork"
+    },
+    "skillOrder": [
+      "programming",
+      "mathematics",
+      "problem-solving",
+      "communication",
+      "creativity",
+      "leadership",
+      "data-analysis",
+      "design",
+      "electronics",
+      "mechanical",
+      "research",
+      "writing",
+      "business-analysis",
+      "teamwork"
+    ],
+    "interestLabels": {
+      "technology": "Technology",
+      "ai": "Artificial intelligence",
+      "science": "Science and research",
+      "business": "Business and entrepreneurship",
+      "finance": "Finance",
+      "design": "Design and creativity",
+      "helping-people": "Helping people",
+      "electronics": "Electronics and hardware",
+      "mechanical": "Mechanical systems",
+      "media": "Media and communication",
+      "education": "Education",
+      "data": "Data and analytics"
+    },
+    "interestOrder": [
+      "technology",
+      "ai",
+      "science",
+      "business",
+      "finance",
+      "design",
+      "helping-people",
+      "electronics",
+      "mechanical",
+      "media",
+      "education",
+      "data"
+    ],
+    "workStyleLabels": {
+      "technical": "Technical and analytical work",
+      "creative": "Creative work",
+      "research": "Research",
+      "business": "Business and management",
+      "practical": "Practical, hands-on work",
+      "people": "People-oriented work"
+    },
+    "workStyleOrder": [
+      "technical",
+      "creative",
+      "research",
+      "business",
+      "practical",
+      "people"
+    ],
+    "subjectLabels": {
+      "mathematics": "Mathematics",
+      "science": "Science",
+      "computer-science": "Computer science",
+      "english": "English",
+      "technical": "Technical subjects"
+    },
+    "subjectOrder": [
+      "mathematics",
+      "science",
+      "computer-science",
+      "english",
+      "technical"
+    ],
+    "educationLevels": [
+      {
+        "value": "secondary",
+        "label": "Secondary school / Class 10-12"
+      },
+      {
+        "value": "diploma",
+        "label": "Diploma / Polytechnic"
+      },
+      {
+        "value": "bachelor",
+        "label": "Bachelor's degree (in progress or completed)"
+      },
+      {
+        "value": "master",
+        "label": "Master's degree"
+      },
+      {
+        "value": "phd",
+        "label": "Doctorate / PhD"
+      }
+    ],
+    "branches": [
+      {
+        "value": "computer-science",
+        "label": "Computer science / IT"
+      },
+      {
+        "value": "electronics",
+        "label": "Electronics and communication"
+      },
+      {
+        "value": "electrical",
+        "label": "Electrical engineering"
+      },
+      {
+        "value": "mechanical",
+        "label": "Mechanical engineering"
+      },
+      {
+        "value": "civil",
+        "label": "Civil engineering"
+      },
+      {
+        "value": "science",
+        "label": "Science (PCM / PCB)"
+      },
+      {
+        "value": "commerce",
+        "label": "Commerce"
+      },
+      {
+        "value": "arts",
+        "label": "Arts / Humanities"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
+    ]
+  },
+  "careers": [
+    {
+      "id": "software-developer",
+      "title": "Software Developer",
+      "category": "Software & Technology",
+      "shortDescription": "Design and build applications, websites, and systems that people use every day.",
+      "overview": "Software developers turn requirements into working software. The day-to-day work mixes writing code, reviewing other people's code, debugging, and discussing what to build with teammates. Entry routes vary: many roles ask for a computer science or related degree, while others accept diplomas or a strong portfolio of projects.",
+      "responsibilities": [
+        "Write, test, and maintain code for features and fixes",
+        "Break down requirements into small, reviewable tasks",
+        "Debug errors and improve performance",
+        "Review teammates' code and share feedback",
+        "Write documentation so others can use the work"
+      ],
+      "coreSkills": [
+        "programming",
+        "problem-solving",
+        "teamwork",
+        "communication"
+      ],
+      "interests": [
+        "technology",
+        "ai",
+        "data"
+      ],
+      "educationPathways": [
+        "Bachelor's degree in computer science, IT, or a related field (common route)",
+        "Diploma plus a strong project portfolio is accepted by some employers",
+        "Self-directed learning with published projects, where employers allow it"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Computer science",
+        "English"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.3,
+        "computer-science": 0.5,
+        "english": 0.2
+      },
+      "beginnerProjects": [
+        "Build a to-do or notes app with add, edit, and delete",
+        "Create a personal portfolio website that works on phones",
+        "Consume a public API and display the results in a clean layout"
+      ],
+      "skillsToLearn": [
+        "Version control with Git",
+        "Writing automated tests",
+        "Databases and SQL basics",
+        "How the web works: HTTP, APIs, and JSON"
+      ],
+      "resources": [
+        {
+          "label": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/"
+        },
+        {
+          "label": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org/"
+        },
+        {
+          "label": "Harvard CS50x",
+          "url": "https://cs50.harvard.edu/x/"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "creative"
+      ],
+      "educationNote": "Employer requirements differ widely; check each job listing."
+    },
+    {
+      "id": "data-analyst",
+      "title": "Data Analyst",
+      "category": "Data & AI",
+      "shortDescription": "Turn raw data into clear answers, dashboards, and recommendations for decisions.",
+      "overview": "Data analysts collect, clean, and interpret data so organisations can make evidence-based decisions. The role uses spreadsheets, SQL, and visualisation tools more than advanced mathematics, which makes it an approachable entry point into data careers. Degrees in statistics, economics, commerce, or computer science are common, but demonstrated skill through projects matters to many employers.",
+      "responsibilities": [
+        "Collect and clean data from multiple sources",
+        "Build queries to extract and transform records",
+        "Create dashboards and charts that explain trends",
+        "Summarise findings for non-technical stakeholders",
+        "Track metrics and flag unusual changes"
+      ],
+      "coreSkills": [
+        "data-analysis",
+        "problem-solving",
+        "communication",
+        "mathematics"
+      ],
+      "interests": [
+        "data",
+        "business",
+        "technology"
+      ],
+      "educationPathways": [
+        "Bachelor's degree in statistics, economics, commerce, or computer science (common)",
+        "Diploma or certificate pathways with a portfolio of analyses",
+        "Career switches supported by practical, published case studies"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Statistics",
+        "English"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.45,
+        "english": 0.25,
+        "technical": 0.3
+      },
+      "beginnerProjects": [
+        "Analyse a public dataset and publish a short written summary",
+        "Build a spreadsheet dashboard with charts for a topic you care about",
+        "Answer five real questions about a dataset using SQL"
+      ],
+      "skillsToLearn": [
+        "SQL for querying databases",
+        "A plotting or BI tool of your choice",
+        "Data cleaning practices",
+        "Basic statistics: averages, distributions, sampling"
+      ],
+      "resources": [
+        {
+          "label": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn"
+        },
+        {
+          "label": "Google Data Analytics Certificate",
+          "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+        },
+        {
+          "label": "Khan Academy Statistics",
+          "url": "https://www.khanacademy.org/math/statistics-probability"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "research"
+      ],
+      "educationNote": "Tools and SQL skill are often assessed through practical tests."
+    },
+    {
+      "id": "machine-learning-engineer",
+      "title": "Machine Learning Engineer",
+      "category": "Data & AI",
+      "shortDescription": "Build models that learn from data to power predictions and recommendations.",
+      "overview": "Machine learning engineers adapt statistical and software engineering methods so systems can learn patterns from data. The role sits between software development and applied research: strong programming plus solid mathematics are both important. Most advertised positions expect at least a bachelor's degree in a quantitative field, and many prefer a master's; some research teams require more.",
+      "responsibilities": [
+        "Prepare and validate training data",
+        "Train, evaluate, and compare models",
+        "Package models so applications can use them",
+        "Monitor model behaviour after release",
+        "Document experiments and results honestly"
+      ],
+      "coreSkills": [
+        "programming",
+        "mathematics",
+        "data-analysis",
+        "research",
+        "problem-solving"
+      ],
+      "interests": [
+        "ai",
+        "technology",
+        "science",
+        "data"
+      ],
+      "educationPathways": [
+        "Bachelor's in computer science, mathematics, statistics, or a related field",
+        "Master's degree is common for research-leaning roles",
+        "Coursework plus reproducible project work for entry-level positions"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Computer science",
+        "Science"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.45,
+        "computer-science": 0.35,
+        "science": 0.2
+      },
+      "beginnerProjects": [
+        "Train a text or image classifier on a public dataset",
+        "Recreate a simple classic model from scratch in code",
+        "Build an end-to-end demo: data, model, and a small web page"
+      ],
+      "skillsToLearn": [
+        "Linear algebra and probability",
+        "Python with data libraries",
+        "Evaluation metrics and avoiding data leakage",
+        "Serving models behind an API"
+      ],
+      "resources": [
+        {
+          "label": "Google ML Crash Course",
+          "url": "https://developers.google.com/machine-learning/crash-course"
+        },
+        {
+          "label": "fast.ai",
+          "url": "https://course.fast.ai/"
+        },
+        {
+          "label": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "research"
+      ],
+      "educationNote": "Degree expectations vary; research roles usually ask for higher qualifications."
+    },
+    {
+      "id": "cybersecurity-analyst",
+      "title": "Cybersecurity Analyst",
+      "category": "Software & Technology",
+      "shortDescription": "Protect systems and data by finding weaknesses and responding to threats.",
+      "overview": "Cybersecurity analysts monitor systems, investigate suspicious activity, and harden infrastructure against attacks. The work blends technical investigation with clear reporting, since findings must be explained to teams that fix them. Entry commonly expects IT or computer science study, though certifications and demonstrated lab work are accepted in some organisations.",
+      "responsibilities": [
+        "Monitor alerts and investigate security incidents",
+        "Run vulnerability scans and track remediation",
+        "Apply patches and review system configurations",
+        "Document incidents and recommend improvements",
+        "Educate colleagues about safe practices"
+      ],
+      "coreSkills": [
+        "problem-solving",
+        "programming",
+        "communication",
+        "research"
+      ],
+      "interests": [
+        "technology",
+        "electronics",
+        "science"
+      ],
+      "educationPathways": [
+        "Bachelor's in computer science, IT, or cybersecurity (common)",
+        "Diploma plus lab portfolio and industry certifications",
+        "Lateral entry from sysadmin or network roles for some employers"
+      ],
+      "subjects": [
+        "Computer science",
+        "Mathematics",
+        "English"
+      ],
+      "subjectWeights": {
+        "computer-science": 0.5,
+        "mathematics": 0.25,
+        "english": 0.25
+      },
+      "beginnerProjects": [
+        "Set up a home lab and practise securing a small network",
+        "Complete beginner capture-the-flag challenges",
+        "Audit your own machine and write a short hardening checklist"
+      ],
+      "skillsToLearn": [
+        "Networking fundamentals (TCP/IP, DNS, HTTP)",
+        "Linux command line",
+        "Common attack types and defences",
+        "Log analysis and basic scripting"
+      ],
+      "resources": [
+        {
+          "label": "OWASP Top Ten",
+          "url": "https://owasp.org/www-project-top-ten/"
+        },
+        {
+          "label": "TryHackMe",
+          "url": "https://tryhackme.com/"
+        },
+        {
+          "label": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "research"
+      ],
+      "educationNote": "Certifications are valued by some employers, not all; check individual listings."
+    },
+    {
+      "id": "ui-ux-designer",
+      "title": "UI/UX Designer",
+      "category": "Design & Creative",
+      "shortDescription": "Shape how digital products look, feel, and flow for the people who use them.",
+      "overview": "UI/UX designers plan and visualise product interfaces: what a screen contains, how a user moves through it, and how it feels to use. The role combines research, wireframing, visual design, and close work with developers. Degrees in design or human-computer interaction help, but a well-explained portfolio is often the deciding factor.",
+      "responsibilities": [
+        "Research user needs and pain points",
+        "Sketch wireframes and user flows",
+        "Build interactive prototypes",
+        "Create visual styles: colour, type, spacing",
+        "Test with users and revise designs"
+      ],
+      "coreSkills": [
+        "design",
+        "creativity",
+        "communication",
+        "problem-solving",
+        "research"
+      ],
+      "interests": [
+        "design",
+        "technology",
+        "media",
+        "business"
+      ],
+      "educationPathways": [
+        "Bachelor's in design, fine arts, or human-computer interaction (common)",
+        "Diploma or certificate programmes in UX design",
+        "Portfolio-led entry for career switchers with transferable skills"
+      ],
+      "subjects": [
+        "English",
+        "Computer science",
+        "Art / Design"
+      ],
+      "subjectWeights": {
+        "english": 0.3,
+        "computer-science": 0.2,
+        "technical": 0.2
+      },
+      "beginnerProjects": [
+        "Redesign a screen of an app you use daily and explain why",
+        "Interview three people about one problem and draft a solution",
+        "Build a clickable prototype of a small multi-screen flow"
+      ],
+      "skillsToLearn": [
+        "Wireframing and prototyping tools",
+        "Design systems and component libraries",
+        "Accessibility basics",
+        "Presenting design rationale in writing and speech"
+      ],
+      "resources": [
+        {
+          "label": "Figma Help Center",
+          "url": "https://help.figma.com/"
+        },
+        {
+          "label": "Google UX Design Certificate",
+          "url": "https://www.coursera.org/professional-certificates/google-ux-design"
+        },
+        {
+          "label": "MDN Accessibility",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+        }
+      ],
+      "workStyles": [
+        "creative",
+        "technical"
+      ],
+      "educationNote": "Most design hiring reviews portfolios first; ask each studio or team about their process."
+    },
+    {
+      "id": "electronics-engineer",
+      "title": "Electronics Engineer",
+      "category": "Engineering",
+      "shortDescription": "Design, test, and improve the circuits and devices behind modern technology.",
+      "overview": "Electronics engineers work on circuit design, signal handling, and the devices that contain them, from sensors to consumer products. The role is hands-on with measurement instruments alongside simulation and documentation. A bachelor's degree in electronics or a closely related discipline is the usual entry route, with licensing rules differing by country.",
+      "responsibilities": [
+        "Design and simulate circuits",
+        "Build prototypes and measure performance",
+        "Select components against cost and availability",
+        "Write test plans and interpret results",
+        "Document designs for production teams"
+      ],
+      "coreSkills": [
+        "electronics",
+        "problem-solving",
+        "mathematics",
+        "programming"
+      ],
+      "interests": [
+        "electronics",
+        "technology",
+        "science"
+      ],
+      "educationPathways": [
+        "Bachelor's in electronics and communication or electronics engineering (common)",
+        "Diploma in electronics technology for technician-level roles",
+        "Relevant project experience for support engineering roles"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "Technical subjects"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.4,
+        "science": 0.3,
+        "technical": 0.3
+      },
+      "beginnerProjects": [
+        "Build a sensor-reading circuit and log the values",
+        "Design a simple power supply on a breadboard",
+        "Simulate an amplifier circuit and compare with measurements"
+      ],
+      "skillsToLearn": [
+        "Reading schematics fluently",
+        "Using an oscilloscope and multimeter",
+        "Printed circuit board layout basics",
+        "Embedded C or Python for test automation"
+      ],
+      "resources": [
+        {
+          "label": "All About Circuits",
+          "url": "https://www.allaboutcircuits.com/"
+        },
+        {
+          "label": "Khan Academy Electrical Engineering",
+          "url": "https://www.khanacademy.org/science/electrical-engineering"
+        },
+        {
+          "label": "IEEE",
+          "url": "https://www.ieee.org/"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "practical",
+        "research"
+      ],
+      "educationNote": "Professional licensing rules vary by country and employer."
+    },
+    {
+      "id": "embedded-systems-engineer",
+      "title": "Embedded Systems Engineer",
+      "category": "Engineering",
+      "shortDescription": "Write the software that runs inside devices, from appliances to vehicles.",
+      "overview": "Embedded engineers build software and firmware that runs on dedicated hardware with tight limits on memory and power. The work sits between electronics and software: reading datasheets, driving sensors, and debugging with instruments. Employers often look for electronics, electrical, or computer engineering degrees plus evidence of hands-on projects.",
+      "responsibilities": [
+        "Write firmware for microcontrollers",
+        "Interface with sensors and communication buses",
+        "Optimise memory and power usage",
+        "Debug with logic analysers and oscilloscopes",
+        "Validate behaviour against requirements"
+      ],
+      "coreSkills": [
+        "programming",
+        "electronics",
+        "problem-solving",
+        "mechanical"
+      ],
+      "interests": [
+        "electronics",
+        "technology",
+        "mechanical"
+      ],
+      "educationPathways": [
+        "Bachelor's in electronics, electrical, or computer engineering (common)",
+        "Diploma with strong practical project work",
+        "Portfolios of working devices for roles that accept them"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Computer science",
+        "Technical subjects"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.3,
+        "computer-science": 0.3,
+        "technical": 0.4
+      },
+      "beginnerProjects": [
+        "Blink an LED, then add a button and serial output on a dev board",
+        "Read a temperature sensor and display readings",
+        "Build a small robot or controller that reacts to its environment"
+      ],
+      "skillsToLearn": [
+        "C for microcontrollers",
+        "Real-time concepts and interrupts",
+        "Communication protocols: I2C, SPI, UART",
+        "Reading component datasheets"
+      ],
+      "resources": [
+        {
+          "label": "Arduino Documentation",
+          "url": "https://docs.arduino.cc/"
+        },
+        {
+          "label": "Raspberry Pi Documentation",
+          "url": "https://www.raspberrypi.org/documentation/"
+        },
+        {
+          "label": "nand2tetris",
+          "url": "https://www.nand2tetris.org/"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "practical"
+      ],
+      "educationNote": "Project evidence is weighed heavily; requirements still differ per employer."
+    },
+    {
+      "id": "electrical-engineer",
+      "title": "Electrical Engineer",
+      "category": "Engineering",
+      "shortDescription": "Work with power systems, machines, and the electrical infrastructure around us.",
+      "overview": "Electrical engineers deal with power generation and distribution, machines, control systems, and electrical safety. Depending on the employer, work can range from field inspections to simulation and design office tasks. A bachelor's degree in electrical engineering is the standard entry route, and professional certification rules apply in many regions.",
+      "responsibilities": [
+        "Design and review electrical layouts and panels",
+        "Perform load calculations and safety checks",
+        "Test equipment and record readings",
+        "Coordinate with construction or production teams",
+        "Maintain documentation and compliance records"
+      ],
+      "coreSkills": [
+        "mathematics",
+        "problem-solving",
+        "electronics",
+        "teamwork"
+      ],
+      "interests": [
+        "electronics",
+        "technology",
+        "mechanical"
+      ],
+      "educationPathways": [
+        "Bachelor's in electrical engineering (common route)",
+        "Diploma in electrical technology for technician positions",
+        "Internships with utilities or contractors for practical entry"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "Technical subjects"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.4,
+        "science": 0.3,
+        "technical": 0.3
+      },
+      "beginnerProjects": [
+        "Map and measure the wiring of a simple model circuit",
+        "Build a small motor-speed control circuit",
+        "Study energy use of household devices and chart the results"
+      ],
+      "skillsToLearn": [
+        "Power system fundamentals",
+        "AutoCAD or equivalent drafting tools",
+        "Electrical safety standards used in your region",
+        "PLC programming basics"
+      ],
+      "resources": [
+        {
+          "label": "Khan Academy Electrical Engineering",
+          "url": "https://www.khanacademy.org/science/electrical-engineering"
+        },
+        {
+          "label": "All About Circuits",
+          "url": "https://www.allaboutcircuits.com/"
+        },
+        {
+          "label": "MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "practical"
+      ],
+      "educationNote": "Licensing and safety regulations vary by country and employer."
+    },
+    {
+      "id": "mechanical-engineer",
+      "title": "Mechanical Engineer",
+      "category": "Engineering",
+      "shortDescription": "Design and test the physical machines, parts, and systems people rely on.",
+      "overview": "Mechanical engineers apply mechanics, materials, and thermal science to design products and processes. The role moves between CAD modelling, calculation, prototyping, and testing on the shop floor. A bachelor's degree in mechanical or a related engineering discipline is the usual requirement for graduate positions.",
+      "responsibilities": [
+        "Create and revise 3D models and drawings",
+        "Run basic stress, thermal, or motion calculations",
+        "Prototype parts and evaluate test results",
+        "Work with manufacturing teams on tolerances",
+        "Maintain design documentation"
+      ],
+      "coreSkills": [
+        "mechanical",
+        "problem-solving",
+        "mathematics",
+        "teamwork"
+      ],
+      "interests": [
+        "mechanical",
+        "technology",
+        "science"
+      ],
+      "educationPathways": [
+        "Bachelor's in mechanical or production engineering (common)",
+        "Diploma in mechanical technology for technician roles",
+        "Project and workshop experience supporting early applications"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "Technical subjects"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.35,
+        "science": 0.3,
+        "technical": 0.35
+      },
+      "beginnerProjects": [
+        "Model a simple part in CAD and 3D-print or sketch it",
+        "Measure the efficiency of a small mechanism you own",
+        "Build a basic machine (bridge, crane, or gearbox) and load-test it"
+      ],
+      "skillsToLearn": [
+        "A mainstream CAD tool",
+        "GD&T and engineering drawing conventions",
+        "Material selection basics",
+        "Finite element analysis fundamentals"
+      ],
+      "resources": [
+        {
+          "label": "MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/"
+        },
+        {
+          "label": "Khan Academy Science",
+          "url": "https://www.khanacademy.org/science"
+        },
+        {
+          "label": "Institution of Mechanical Engineers",
+          "url": "https://www.imeche.org/"
+        }
+      ],
+      "workStyles": [
+        "practical",
+        "technical"
+      ],
+      "educationNote": "Employer requirements vary; some roles prefer chartered status later on."
+    },
+    {
+      "id": "robotics-engineer",
+      "title": "Robotics Engineer",
+      "category": "Engineering",
+      "shortDescription": "Combine mechanics, electronics, and code to make machines that sense and act.",
+      "overview": "Robotics engineers integrate mechanical design, electronics, and software so machines can perceive their surroundings and perform tasks. The field is broad and interdisciplinary; entry roles commonly ask for a bachelor's in robotics, mechanical, electrical, or computer engineering, with strong evidence of integrated projects.",
+      "responsibilities": [
+        "Integrate sensors and actuators with control code",
+        "Prototype and iterate on mechanical assemblies",
+        "Implement motion planning or simple control logic",
+        "Test robots against real-world conditions",
+        "Document systems so teammates can extend them"
+      ],
+      "coreSkills": [
+        "programming",
+        "electronics",
+        "mechanical",
+        "problem-solving",
+        "mathematics"
+      ],
+      "interests": [
+        "technology",
+        "electronics",
+        "mechanical",
+        "ai"
+      ],
+      "educationPathways": [
+        "Bachelor's in robotics, mechanical, electrical, or computer engineering",
+        "Master's for specialised research positions",
+        "Competition teams and project portfolios strengthening applications"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Computer science",
+        "Technical subjects"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.35,
+        "computer-science": 0.3,
+        "technical": 0.35
+      },
+      "beginnerProjects": [
+        "Build a line-following robot",
+        "Control a robotic arm with joint limits in software",
+        "Add distance sensing to avoid obstacles on a small rover"
+      ],
+      "skillsToLearn": [
+        "Control and feedback basics",
+        "ROS (Robot Operating System) fundamentals",
+        "Sensor fusion and filtering",
+        "Mechanical CAD for custom parts"
+      ],
+      "resources": [
+        {
+          "label": "ROS Documentation",
+          "url": "https://docs.ros.org/en/tutorials/"
+        },
+        {
+          "label": "Arduino Documentation",
+          "url": "https://docs.arduino.cc/"
+        },
+        {
+          "label": "fast.ai",
+          "url": "https://course.fast.ai/"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "practical",
+        "research"
+      ],
+      "educationNote": "Projects and competition experience are often as important as grades."
+    },
+    {
+      "id": "civil-engineer",
+      "title": "Civil Engineer",
+      "category": "Engineering",
+      "shortDescription": "Plan and supervise the buildings, roads, and infrastructure communities depend on.",
+      "overview": "Civil engineers design and coordinate infrastructure such as buildings, roads, drainage, and utilities, balancing safety, cost, and site conditions. The work includes calculations, drawings, site visits, and coordination with many parties. A bachelor's in civil engineering is the standard entry, with professional registration expected for signing off designs in most regions.",
+      "responsibilities": [
+        "Prepare structural and site calculations",
+        "Read and produce drawings and schedules",
+        "Inspect sites and check work against drawings",
+        "Coordinate with architects, contractors, and clients",
+        "Keep records for quality and compliance"
+      ],
+      "coreSkills": [
+        "mathematics",
+        "problem-solving",
+        "teamwork",
+        "communication"
+      ],
+      "interests": [
+        "mechanical",
+        "science",
+        "business"
+      ],
+      "educationPathways": [
+        "Bachelor's in civil engineering (common route)",
+        "Diploma in civil technology for site technician roles",
+        "Internships with construction or consultancy firms"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "Technical subjects"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.4,
+        "science": 0.3,
+        "technical": 0.3
+      },
+      "beginnerProjects": [
+        "Survey a small area and produce a scaled sketch",
+        "Design and load-test a model bridge",
+        "Measure quantities for a simple room and draft a bill of materials"
+      ],
+      "skillsToLearn": [
+        "CAD drafting for civil drawings",
+        "Surveying instruments and methods",
+        "Concrete and steel design basics",
+        "Project scheduling fundamentals"
+      ],
+      "resources": [
+        {
+          "label": "MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/"
+        },
+        {
+          "label": "Khan Academy Math",
+          "url": "https://www.khanacademy.org/math"
+        },
+        {
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/"
+        }
+      ],
+      "workStyles": [
+        "practical",
+        "technical",
+        "business"
+      ],
+      "educationNote": "Site work and regional registration rules vary; confirm locally."
+    },
+    {
+      "id": "research-scientist",
+      "title": "Research Scientist",
+      "category": "Science & Research",
+      "shortDescription": "Ask new questions, design studies, and add evidence to a field of knowledge.",
+      "overview": "Research scientists plan studies, collect and interpret evidence, and communicate findings through papers and talks. The path usually runs through advanced degrees: most advertised research roles expect a master's at minimum and a PhD for independent positions. Persistence, careful methodology, and writing matter as much as raw technical skill.",
+      "responsibilities": [
+        "Review existing literature and identify gaps",
+        "Design experiments or studies with clear methods",
+        "Analyse results and test their reliability",
+        "Write papers and grant proposals",
+        "Present findings to colleagues and conferences"
+      ],
+      "coreSkills": [
+        "research",
+        "data-analysis",
+        "writing",
+        "problem-solving",
+        "mathematics"
+      ],
+      "interests": [
+        "science",
+        "ai",
+        "education",
+        "data"
+      ],
+      "educationPathways": [
+        "Bachelor's then Master's in a science or engineering discipline",
+        "PhD for independent research positions (common requirement)",
+        "Research assistant roles as an intermediate step"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "English"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.3,
+        "science": 0.45,
+        "english": 0.25
+      },
+      "beginnerProjects": [
+        "Reproduce a small published result and document the process",
+        "Run a controlled experiment with a clear hypothesis",
+        "Write a literature review on a topic you care about"
+      ],
+      "skillsToLearn": [
+        "Statistical methods and reproducible workflows",
+        "Academic writing and citation practice",
+        "A scripting language for analysis",
+        "Grant and proposal writing"
+      ],
+      "resources": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/"
+        },
+        {
+          "label": "Khan Academy Statistics",
+          "url": "https://www.khanacademy.org/math/statistics-probability"
+        },
+        {
+          "label": "MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/"
+        }
+      ],
+      "workStyles": [
+        "research",
+        "technical"
+      ],
+      "educationNote": "Qualification requirements are strict in many institutions — verify per programme."
+    },
+    {
+      "id": "business-analyst",
+      "title": "Business Analyst",
+      "category": "Business & Finance",
+      "shortDescription": "Translate business problems into clear requirements and measurable improvements.",
+      "overview": "Business analysts sit between stakeholders and delivery teams: they gather needs, map processes, and define what a solution must achieve. The role leans on communication and structured thinking more than programming. Degrees in business, commerce, IT, or engineering are common backgrounds; analytical evidence through projects helps a great deal.",
+      "responsibilities": [
+        "Interview stakeholders and capture requirements",
+        "Map current processes and find bottlenecks",
+        "Define acceptance criteria for solutions",
+        "Build reports that track outcomes",
+        "Facilitate workshops and keep records"
+      ],
+      "coreSkills": [
+        "business-analysis",
+        "communication",
+        "problem-solving",
+        "data-analysis",
+        "teamwork"
+      ],
+      "interests": [
+        "business",
+        "technology",
+        "data",
+        "finance"
+      ],
+      "educationPathways": [
+        "Bachelor's in business, commerce, economics, or IT (common)",
+        "MBA or business analysis certifications for progression",
+        "Internal transfers from operations or support roles"
+      ],
+      "subjects": [
+        "Mathematics",
+        "English",
+        "Computer science"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.3,
+        "english": 0.35,
+        "computer-science": 0.15
+      },
+      "beginnerProjects": [
+        "Write requirements for an app idea, including edge cases",
+        "Analyse a small business's process and propose three improvements",
+        "Build a dashboard that answers five stakeholder questions"
+      ],
+      "skillsToLearn": [
+        "Requirements elicitation techniques",
+        "Process mapping and diagrams",
+        "SQL and basic reporting",
+        "Stakeholder communication and negotiation"
+      ],
+      "resources": [
+        {
+          "label": "Google Data Analytics Certificate",
+          "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+        },
+        {
+          "label": "IIBA",
+          "url": "https://www.iiba.org/"
+        },
+        {
+          "label": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/"
+        }
+      ],
+      "workStyles": [
+        "business",
+        "technical",
+        "people"
+      ],
+      "educationNote": "Certifications valued differ by employer; check individual postings."
+    },
+    {
+      "id": "financial-analyst",
+      "title": "Financial Analyst",
+      "category": "Business & Finance",
+      "shortDescription": "Study numbers, markets, and reports to guide money-related decisions.",
+      "overview": "Financial analysts review financial statements, build models, and summarise performance for teams that allocate money. Accuracy and clear explanation are essential. Employers commonly ask for degrees in finance, economics, commerce, or accounting; some also expect progress toward professional finance certifications.",
+      "responsibilities": [
+        "Build and maintain financial models",
+        "Review budgets, forecasts, and actual results",
+        "Research industries and companies",
+        "Prepare summaries and presentations",
+        "Check data quality before reporting"
+      ],
+      "coreSkills": [
+        "data-analysis",
+        "mathematics",
+        "business-analysis",
+        "communication",
+        "writing"
+      ],
+      "interests": [
+        "finance",
+        "business",
+        "data"
+      ],
+      "educationPathways": [
+        "Bachelor's in finance, economics, commerce, or accounting (common)",
+        "Professional certifications valued by some employers",
+        "Analyst internships as an entry point"
+      ],
+      "subjects": [
+        "Mathematics",
+        "English",
+        "Computer science"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.45,
+        "english": 0.3,
+        "computer-science": 0.1
+      },
+      "beginnerProjects": [
+        "Build a budget and track it for three months",
+        "Analyse a public company's annual report and write a one-page note",
+        "Compare two options (buy vs rent, plan A vs plan B) with a simple model"
+      ],
+      "skillsToLearn": [
+        "Spreadsheet modelling practices",
+        "Financial statement reading",
+        "SQL or Python for data handling",
+        "Concise business writing"
+      ],
+      "resources": [
+        {
+          "label": "Khan Academy Finance & Capital Markets",
+          "url": "https://www.khanacademy.org/economics-finance-domain"
+        },
+        {
+          "label": "CFA Institute",
+          "url": "https://www.cfainstitute.org/"
+        },
+        {
+          "label": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn"
+        }
+      ],
+      "workStyles": [
+        "technical",
+        "business"
+      ],
+      "educationNote": "Certification expectations differ by employer and country."
+    },
+    {
+      "id": "digital-marketing-specialist",
+      "title": "Digital Marketing Specialist",
+      "category": "Business & Finance",
+      "shortDescription": "Plan and measure online campaigns that help people discover products and ideas.",
+      "overview": "Digital marketing specialists work across content, search, social, and paid campaigns, then read the results to decide what to improve. The role suits people who enjoy a mix of writing, design, and analysis. Formal degrees vary widely; demonstrable campaign work and platform knowledge often carry more weight than a specific major.",
+      "responsibilities": [
+        "Plan campaign messaging and schedules",
+        "Set up tracking and read analytics reports",
+        "Write or brief short-form content",
+        "Test variations and compare results",
+        "Report what worked and what to change"
+      ],
+      "coreSkills": [
+        "communication",
+        "writing",
+        "creativity",
+        "data-analysis",
+        "business-analysis"
+      ],
+      "interests": [
+        "business",
+        "media",
+        "technology",
+        "design"
+      ],
+      "educationPathways": [
+        "Bachelor's in marketing, commerce, media, or communications (common but not universal)",
+        "Certificate courses plus a personal project portfolio",
+        "Freelance or club campaign experience for entry"
+      ],
+      "subjects": [
+        "English",
+        "Mathematics",
+        "Computer science"
+      ],
+      "subjectWeights": {
+        "english": 0.4,
+        "mathematics": 0.25,
+        "computer-science": 0.15
+      },
+      "beginnerProjects": [
+        "Run a small campaign for a college club and report results",
+        "Write ten SEO-focused articles for a topic you know well",
+        "Design a content calendar and measure engagement for a month"
+      ],
+      "skillsToLearn": [
+        "Web analytics fundamentals",
+        "Search optimisation basics",
+        "Ad platform interfaces",
+        "Copywriting for different audiences"
+      ],
+      "resources": [
+        {
+          "label": "Google Digital Garage",
+          "url": "https://learndigital.withgoogle.com/digitalgarage"
+        },
+        {
+          "label": "Google Analytics Academy",
+          "url": "https://analytics.google.com/analytics/academy/"
+        },
+        {
+          "label": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/"
+        }
+      ],
+      "workStyles": [
+        "creative",
+        "business",
+        "technical"
+      ],
+      "educationNote": "Platform certifications are optional and change often; verify current offers."
+    },
+    {
+      "id": "technical-writer",
+      "title": "Technical Writer",
+      "category": "Media & Communication",
+      "shortDescription": "Explain complex products and technology in docs people can actually follow.",
+      "overview": "Technical writers turn complicated subject matter into clear documentation: guides, references, release notes, and tutorials. The role rewards strong writing paired with enough technical understanding to ask the right questions. English, communications, or technical backgrounds all appear in the field; writing samples decide most hiring.",
+      "responsibilities": [
+        "Interview subject-matter experts",
+        "Draft and structure documentation",
+        "Keep content accurate as products change",
+        "Edit for clarity, consistency, and tone",
+        "Maintain doc sites and style guidelines"
+      ],
+      "coreSkills": [
+        "writing",
+        "communication",
+        "research",
+        "problem-solving",
+        "teamwork"
+      ],
+      "interests": [
+        "media",
+        "technology",
+        "education",
+        "science"
+      ],
+      "educationPathways": [
+        "Bachelor's in English, communications, or a technical discipline (both appear)",
+        "Documentation portfolios for career switchers",
+        "Open-source contributions as evidence of practice"
+      ],
+      "subjects": [
+        "English",
+        "Computer science",
+        "Mathematics"
+      ],
+      "subjectWeights": {
+        "english": 0.6,
+        "computer-science": 0.25,
+        "mathematics": 0.15
+      },
+      "beginnerProjects": [
+        "Write setup docs for a project of your own, then hand them to a friend",
+        "Improve the documentation of an open-source tool",
+        "Create a five-step tutorial with screenshots for a common task"
+      ],
+      "skillsToLearn": [
+        "Information architecture and doc structure",
+        "Markdown and docs-as-code workflows",
+        "Basic screen recording and diagrams",
+        "Style guides and terminology control"
+      ],
+      "resources": [
+        {
+          "label": "Google Technical Writing Courses",
+          "url": "https://developers.google.com/tech-writing"
+        },
+        {
+          "label": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/"
+        },
+        {
+          "label": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org/"
+        }
+      ],
+      "workStyles": [
+        "creative",
+        "research",
+        "technical"
+      ],
+      "educationNote": "Writing samples usually matter more than a specific degree; check per employer."
+    },
+    {
+      "id": "stem-educator",
+      "title": "STEM Educator",
+      "category": "Education",
+      "shortDescription": "Help students understand science, technology, engineering, and maths through teaching.",
+      "overview": "STEM educators design lessons, demonstrate concepts, and support students until ideas click. The work is people-centred: patience, clarity, and subject knowledge all matter. School-level teaching typically requires a teaching qualification or degree in the subject, while tutoring, corporate training, and content creation have different entry requirements — always verify locally.",
+      "responsibilities": [
+        "Plan lessons and learning activities",
+        "Explain concepts with examples and demos",
+        "Assess student understanding and adapt",
+        "Give constructive feedback",
+        "Keep records and communicate with families or managers"
+      ],
+      "coreSkills": [
+        "communication",
+        "leadership",
+        "teamwork",
+        "research",
+        "writing"
+      ],
+      "interests": [
+        "education",
+        "helping-people",
+        "science",
+        "technology"
+      ],
+      "educationPathways": [
+        "Bachelor's in the subject plus a teaching qualification (common for schools)",
+        "Tutoring and online teaching with demonstrated subject skill",
+        "Corporate training roles valuing industry experience"
+      ],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "English"
+      ],
+      "subjectWeights": {
+        "mathematics": 0.3,
+        "science": 0.35,
+        "english": 0.35
+      },
+      "beginnerProjects": [
+        "Teach a short class or workshop to younger students",
+        "Build a set of flashcards or problems with worked solutions",
+        "Record a five-minute explanation of a concept you find tricky"
+      ],
+      "skillsToLearn": [
+        "Lesson planning and scaffolding",
+        "Classroom management techniques",
+        "Creating accessible learning materials",
+        "Giving feedback that students can act on"
+      ],
+      "resources": [
+        {
+          "label": "Khan Academy",
+          "url": "https://www.khanacademy.org/"
+        },
+        {
+          "label": "Learning How to Learn (Coursera)",
+          "url": "https://www.coursera.org/learn/learning-how-to-learn"
+        },
+        {
+          "label": "MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/"
+        }
+      ],
+      "workStyles": [
+        "people",
+        "research",
+        "creative"
+      ],
+      "educationNote": "Teaching requirements differ by country, institution, and level taught."
+    }
+  ]
+}

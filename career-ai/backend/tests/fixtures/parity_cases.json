@@ -1,0 +1,4032 @@
+{
+  "source": "recommendation-engine.js (captured from browser)",
+  "capturedAt": "2026-10-22T08:36:36.236Z",
+  "cases": [
+    {
+      "name": "verified_53",
+      "profile": {
+        "name": "",
+        "education": "bachelor",
+        "branch": "computer-science",
+        "percent": 85,
+        "country": "",
+        "skills": {
+          "programming": 3,
+          "design": 4,
+          "writing": 4
+        },
+        "interests": [
+          "technology",
+          "ai",
+          "design"
+        ],
+        "subjects": {
+          "mathematics": 80,
+          "computer-science": 70,
+          "english": 85
+        },
+        "workStyles": [
+          "technical"
+        ]
+      },
+      "status": "ok",
+      "source": "local-rule-based",
+      "coverage": 100,
+      "topN": 5,
+      "message": null,
+      "order": [
+        "digital-marketing-specialist",
+        "ui-ux-designer",
+        "software-developer",
+        "machine-learning-engineer",
+        "robotics-engineer",
+        "research-scientist",
+        "technical-writer",
+        "cybersecurity-analyst",
+        "electronics-engineer",
+        "embedded-systems-engineer",
+        "data-analyst",
+        "business-analyst",
+        "electrical-engineer",
+        "mechanical-engineer",
+        "financial-analyst",
+        "stem-educator",
+        "civil-engineer"
+      ],
+      "matches": [
+        {
+          "id": "digital-marketing-specialist",
+          "title": "Digital Marketing Specialist",
+          "category": "Business & Finance",
+          "shortDescription": "Plan and measure online campaigns that help people discover products and ideas.",
+          "score": 54,
+          "components": {
+            "skills": 16,
+            "interests": 67,
+            "academics": 81,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing"
+          ],
+          "matchedInterests": [
+            "technology",
+            "design"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Writing).",
+            "You selected the interests Technology and Design and creativity, which sit at the centre of this work.",
+            "Your marks in English (85%), Mathematics (80%), Computer science (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "communication",
+            "creativity",
+            "data-analysis",
+            "business-analysis"
+          ],
+          "rank": 1
+        },
+        {
+          "id": "ui-ux-designer",
+          "title": "UI/UX Designer",
+          "category": "Design & Creative",
+          "shortDescription": "Shape how digital products look, feel, and flow for the people who use them.",
+          "score": 54,
+          "components": {
+            "skills": 16,
+            "interests": 67,
+            "academics": 79,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "design"
+          ],
+          "matchedInterests": [
+            "technology",
+            "design"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Design).",
+            "You selected the interests Technology and Design and creativity, which sit at the centre of this work.",
+            "Your marks in English (85%), Computer science (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "creativity",
+            "communication",
+            "problem-solving",
+            "research"
+          ],
+          "rank": 2
+        },
+        {
+          "id": "software-developer",
+          "title": "Software Developer",
+          "category": "Software & Technology",
+          "shortDescription": "Design and build applications, websites, and systems that people use every day.",
+          "score": 53,
+          "components": {
+            "skills": 15,
+            "interests": 67,
+            "academics": 76,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology",
+            "ai"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Programming).",
+            "You selected the interests Technology and Artificial intelligence, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%), Computer science (70%), English (85%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "problem-solving",
+            "teamwork",
+            "communication"
+          ],
+          "rank": 3
+        },
+        {
+          "id": "machine-learning-engineer",
+          "title": "Machine Learning Engineer",
+          "category": "Data & AI",
+          "shortDescription": "Build models that learn from data to power predictions and recommendations.",
+          "score": 52,
+          "components": {
+            "skills": 12,
+            "interests": 67,
+            "academics": 76,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology",
+            "ai"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Programming).",
+            "You selected the interests Technology and Artificial intelligence, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%), Computer science (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "data-analysis",
+            "research",
+            "problem-solving"
+          ],
+          "rank": 4
+        },
+        {
+          "id": "robotics-engineer",
+          "title": "Robotics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Combine mechanics, electronics, and code to make machines that sense and act.",
+          "score": 52,
+          "components": {
+            "skills": 12,
+            "interests": 67,
+            "academics": 75,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology",
+            "ai"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Programming).",
+            "You selected the interests Technology and Artificial intelligence, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%), Computer science (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "electronics",
+            "mechanical",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 5
+        },
+        {
+          "id": "research-scientist",
+          "title": "Research Scientist",
+          "category": "Science & Research",
+          "shortDescription": "Ask new questions, design studies, and add evidence to a field of knowledge.",
+          "score": 46,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 82,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing"
+          ],
+          "matchedInterests": [
+            "ai"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Writing).",
+            "You selected the interests Artificial intelligence, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%), English (85%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "research",
+            "data-analysis",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 6
+        },
+        {
+          "id": "technical-writer",
+          "title": "Technical Writer",
+          "category": "Media & Communication",
+          "shortDescription": "Explain complex products and technology in docs people can actually follow.",
+          "score": 46,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 81,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Writing).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in English (85%), Computer science (70%), Mathematics (80%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "communication",
+            "research",
+            "problem-solving",
+            "teamwork"
+          ],
+          "rank": 7
+        },
+        {
+          "id": "cybersecurity-analyst",
+          "title": "Cybersecurity Analyst",
+          "category": "Software & Technology",
+          "shortDescription": "Protect systems and data by finding weaknesses and responding to threats.",
+          "score": 45,
+          "components": {
+            "skills": 15,
+            "interests": 33,
+            "academics": 76,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Programming).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Computer science (70%), Mathematics (80%), English (85%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "problem-solving",
+            "communication",
+            "research"
+          ],
+          "rank": 8
+        },
+        {
+          "id": "electronics-engineer",
+          "title": "Electronics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design, test, and improve the circuits and devices behind modern technology.",
+          "score": 45,
+          "components": {
+            "skills": 15,
+            "interests": 33,
+            "academics": 80,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Programming).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "electronics",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 9
+        },
+        {
+          "id": "embedded-systems-engineer",
+          "title": "Embedded Systems Engineer",
+          "category": "Engineering",
+          "shortDescription": "Write the software that runs inside devices, from appliances to vehicles.",
+          "score": 44,
+          "components": {
+            "skills": 15,
+            "interests": 33,
+            "academics": 75,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Programming).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%), Computer science (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "electronics",
+            "problem-solving",
+            "mechanical"
+          ],
+          "rank": 10
+        },
+        {
+          "id": "data-analyst",
+          "title": "Data Analyst",
+          "category": "Data & AI",
+          "shortDescription": "Turn raw data into clear answers, dashboards, and recommendations for decisions.",
+          "score": 40,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 82,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%), English (85%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "problem-solving",
+            "communication",
+            "mathematics"
+          ],
+          "rank": 11
+        },
+        {
+          "id": "business-analyst",
+          "title": "Business Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Translate business problems into clear requirements and measurable improvements.",
+          "score": 39,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 80,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%), English (85%), Computer science (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "business-analysis",
+            "communication",
+            "problem-solving",
+            "data-analysis",
+            "teamwork"
+          ],
+          "rank": 12
+        },
+        {
+          "id": "electrical-engineer",
+          "title": "Electrical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Work with power systems, machines, and the electrical infrastructure around us.",
+          "score": 39,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 80,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "problem-solving",
+            "electronics",
+            "teamwork"
+          ],
+          "rank": 13
+        },
+        {
+          "id": "mechanical-engineer",
+          "title": "Mechanical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design and test the physical machines, parts, and systems people rely on.",
+          "score": 39,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 80,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "mechanical",
+            "problem-solving",
+            "mathematics",
+            "teamwork"
+          ],
+          "rank": 14
+        },
+        {
+          "id": "financial-analyst",
+          "title": "Financial Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Study numbers, markets, and reports to guide money-related decisions.",
+          "score": 38,
+          "components": {
+            "skills": 16,
+            "interests": 0,
+            "academics": 81,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 1 of 5 core skills (Writing).",
+            "Your marks in Mathematics (80%), English (85%), Computer science (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "mathematics",
+            "business-analysis",
+            "communication"
+          ],
+          "rank": 15
+        },
+        {
+          "id": "stem-educator",
+          "title": "STEM Educator",
+          "category": "Education",
+          "shortDescription": "Help students understand science, technology, engineering, and maths through teaching.",
+          "score": 31,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 83,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Writing).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (80%), English (85%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "communication",
+            "leadership",
+            "teamwork",
+            "research"
+          ],
+          "rank": 16
+        },
+        {
+          "id": "civil-engineer",
+          "title": "Civil Engineer",
+          "category": "Engineering",
+          "shortDescription": "Plan and supervise the buildings, roads, and infrastructure communities depend on.",
+          "score": 31,
+          "components": {
+            "skills": 0,
+            "interests": 0,
+            "academics": 80,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [],
+          "reasons": [
+            "Your marks in Mathematics (80%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "problem-solving",
+            "teamwork",
+            "communication"
+          ],
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "name": "design_focus",
+      "profile": {
+        "name": "",
+        "education": "bachelor",
+        "branch": "arts",
+        "percent": 88,
+        "country": "",
+        "skills": {
+          "design": 5,
+          "creativity": 5,
+          "communication": 4,
+          "writing": 3
+        },
+        "interests": [
+          "design",
+          "media",
+          "technology"
+        ],
+        "subjects": {
+          "english": 92,
+          "computer-science": 78
+        },
+        "workStyles": [
+          "creative",
+          "people"
+        ]
+      },
+      "status": "ok",
+      "source": "local-rule-based",
+      "coverage": 100,
+      "topN": 5,
+      "message": null,
+      "order": [
+        "ui-ux-designer",
+        "digital-marketing-specialist",
+        "stem-educator",
+        "technical-writer",
+        "software-developer",
+        "business-analyst",
+        "data-analyst",
+        "cybersecurity-analyst",
+        "financial-analyst",
+        "embedded-systems-engineer",
+        "machine-learning-engineer",
+        "robotics-engineer",
+        "research-scientist",
+        "civil-engineer",
+        "electrical-engineer",
+        "electronics-engineer",
+        "mechanical-engineer"
+      ],
+      "matches": [
+        {
+          "id": "ui-ux-designer",
+          "title": "UI/UX Designer",
+          "category": "Design & Creative",
+          "shortDescription": "Shape how digital products look, feel, and flow for the people who use them.",
+          "score": 72,
+          "components": {
+            "skills": 56,
+            "interests": 100,
+            "academics": 86,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "design",
+            "creativity",
+            "communication"
+          ],
+          "matchedInterests": [
+            "design",
+            "media",
+            "technology"
+          ],
+          "reasons": [
+            "Matches 3 of 5 core skills (Design, Creativity, Communication), several of which you rated as advanced.",
+            "You selected the interests Design and creativity and Media and communication and Technology, which sit at the centre of this work.",
+            "Your marks in English (92%), Computer science (78%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Creative work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "problem-solving",
+            "research"
+          ],
+          "rank": 1
+        },
+        {
+          "id": "digital-marketing-specialist",
+          "title": "Digital Marketing Specialist",
+          "category": "Business & Finance",
+          "shortDescription": "Plan and measure online campaigns that help people discover products and ideas.",
+          "score": 69,
+          "components": {
+            "skills": 48,
+            "interests": 100,
+            "academics": 88,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication",
+            "writing",
+            "creativity"
+          ],
+          "matchedInterests": [
+            "design",
+            "media",
+            "technology"
+          ],
+          "reasons": [
+            "Matches 3 of 5 core skills (Communication, Writing, Creativity), several of which you rated as advanced.",
+            "You selected the interests Design and creativity and Media and communication and Technology, which sit at the centre of this work.",
+            "Your marks in English (92%), Computer science (78%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Creative work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "business-analysis"
+          ],
+          "rank": 2
+        },
+        {
+          "id": "stem-educator",
+          "title": "STEM Educator",
+          "category": "Education",
+          "shortDescription": "Help students understand science, technology, engineering, and maths through teaching.",
+          "score": 53,
+          "components": {
+            "skills": 28,
+            "interests": 33,
+            "academics": 92,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication",
+            "writing"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Communication, Writing).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in English (92%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Creative work, People-oriented work — is central to how this role is carried out.",
+            "Your academic background (Arts / Humanities) relates directly to this field."
+          ],
+          "skillGaps": [
+            "leadership",
+            "teamwork",
+            "research"
+          ],
+          "rank": 3
+        },
+        {
+          "id": "technical-writer",
+          "title": "Technical Writer",
+          "category": "Media & Communication",
+          "shortDescription": "Explain complex products and technology in docs people can actually follow.",
+          "score": 53,
+          "components": {
+            "skills": 28,
+            "interests": 67,
+            "academics": 88,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing",
+            "communication"
+          ],
+          "matchedInterests": [
+            "media",
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Writing, Communication).",
+            "You selected the interests Media and communication and Technology, which sit at the centre of this work.",
+            "Your marks in English (92%), Computer science (78%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Creative work — is central to how this role is carried out.",
+            "Your academic background (Arts / Humanities) relates directly to this field."
+          ],
+          "skillGaps": [
+            "research",
+            "problem-solving",
+            "teamwork"
+          ],
+          "rank": 4
+        },
+        {
+          "id": "software-developer",
+          "title": "Software Developer",
+          "category": "Software & Technology",
+          "shortDescription": "Design and build applications, websites, and systems that people use every day.",
+          "score": 40,
+          "components": {
+            "skills": 20,
+            "interests": 33,
+            "academics": 82,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Communication).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Computer science (78%), English (92%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Creative work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "programming",
+            "problem-solving",
+            "teamwork"
+          ],
+          "rank": 5
+        },
+        {
+          "id": "business-analyst",
+          "title": "Business Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Translate business problems into clear requirements and measurable improvements.",
+          "score": 40,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 88,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Communication).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in English (92%), Computer science (78%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — People-oriented work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "business-analysis",
+            "problem-solving",
+            "data-analysis",
+            "teamwork"
+          ],
+          "rank": 6
+        },
+        {
+          "id": "data-analyst",
+          "title": "Data Analyst",
+          "category": "Data & AI",
+          "shortDescription": "Turn raw data into clear answers, dashboards, and recommendations for decisions.",
+          "score": 35,
+          "components": {
+            "skills": 20,
+            "interests": 33,
+            "academics": 92,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Communication).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in English (92%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 7
+        },
+        {
+          "id": "cybersecurity-analyst",
+          "title": "Cybersecurity Analyst",
+          "category": "Software & Technology",
+          "shortDescription": "Protect systems and data by finding weaknesses and responding to threats.",
+          "score": 33,
+          "components": {
+            "skills": 20,
+            "interests": 33,
+            "academics": 83,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Communication).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Computer science (78%), English (92%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "problem-solving",
+            "programming",
+            "research"
+          ],
+          "rank": 8
+        },
+        {
+          "id": "financial-analyst",
+          "title": "Financial Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Study numbers, markets, and reports to guide money-related decisions.",
+          "score": 29,
+          "components": {
+            "skills": 28,
+            "interests": 0,
+            "academics": 88,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication",
+            "writing"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 2 of 5 core skills (Communication, Writing).",
+            "Your marks in English (92%), Computer science (78%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "mathematics",
+            "business-analysis"
+          ],
+          "rank": 9
+        },
+        {
+          "id": "embedded-systems-engineer",
+          "title": "Embedded Systems Engineer",
+          "category": "Engineering",
+          "shortDescription": "Write the software that runs inside devices, from appliances to vehicles.",
+          "score": 24,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 78,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Computer science (78%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "programming",
+            "electronics",
+            "problem-solving",
+            "mechanical"
+          ],
+          "rank": 10
+        },
+        {
+          "id": "machine-learning-engineer",
+          "title": "Machine Learning Engineer",
+          "category": "Data & AI",
+          "shortDescription": "Build models that learn from data to power predictions and recommendations.",
+          "score": 24,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 78,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Computer science (78%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "programming",
+            "mathematics",
+            "data-analysis",
+            "research",
+            "problem-solving"
+          ],
+          "rank": 11
+        },
+        {
+          "id": "robotics-engineer",
+          "title": "Robotics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Combine mechanics, electronics, and code to make machines that sense and act.",
+          "score": 24,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 78,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Computer science (78%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "programming",
+            "electronics",
+            "mechanical",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 12
+        },
+        {
+          "id": "research-scientist",
+          "title": "Research Scientist",
+          "category": "Science & Research",
+          "shortDescription": "Ask new questions, design studies, and add evidence to a field of knowledge.",
+          "score": 23,
+          "components": {
+            "skills": 12,
+            "interests": 0,
+            "academics": 92,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 1 of 5 core skills (Writing).",
+            "Your marks in English (92%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "research",
+            "data-analysis",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 13
+        },
+        {
+          "id": "civil-engineer",
+          "title": "Civil Engineer",
+          "category": "Engineering",
+          "shortDescription": "Plan and supervise the buildings, roads, and infrastructure communities depend on.",
+          "score": 10,
+          "components": {
+            "skills": 20,
+            "interests": 0,
+            "academics": null,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 1 of 4 core skills (Communication)."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "problem-solving",
+            "teamwork"
+          ],
+          "rank": 14
+        },
+        {
+          "id": "electrical-engineer",
+          "title": "Electrical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Work with power systems, machines, and the electrical infrastructure around us.",
+          "score": 10,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": null,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "problem-solving",
+            "electronics",
+            "teamwork"
+          ],
+          "rank": 15
+        },
+        {
+          "id": "electronics-engineer",
+          "title": "Electronics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design, test, and improve the circuits and devices behind modern technology.",
+          "score": 10,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": null,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "electronics",
+            "problem-solving",
+            "mathematics",
+            "programming"
+          ],
+          "rank": 16
+        },
+        {
+          "id": "mechanical-engineer",
+          "title": "Mechanical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design and test the physical machines, parts, and systems people rely on.",
+          "score": 10,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": null,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "mechanical",
+            "problem-solving",
+            "mathematics",
+            "teamwork"
+          ],
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "name": "engineering_focus",
+      "profile": {
+        "name": "",
+        "education": "bachelor",
+        "branch": "computer-science",
+        "percent": 91,
+        "country": "",
+        "skills": {
+          "programming": 5,
+          "mathematics": 5,
+          "problem-solving": 4,
+          "electronics": 3
+        },
+        "interests": [
+          "technology",
+          "ai",
+          "electronics"
+        ],
+        "subjects": {
+          "mathematics": 92,
+          "science": 88,
+          "computer-science": 90
+        },
+        "workStyles": [
+          "technical",
+          "research"
+        ]
+      },
+      "status": "ok",
+      "source": "local-rule-based",
+      "coverage": 100,
+      "topN": 5,
+      "message": null,
+      "order": [
+        "robotics-engineer",
+        "electronics-engineer",
+        "machine-learning-engineer",
+        "cybersecurity-analyst",
+        "electrical-engineer",
+        "embedded-systems-engineer",
+        "data-analyst",
+        "software-developer",
+        "research-scientist",
+        "mechanical-engineer",
+        "technical-writer",
+        "civil-engineer",
+        "business-analyst",
+        "ui-ux-designer",
+        "financial-analyst",
+        "digital-marketing-specialist",
+        "stem-educator"
+      ],
+      "matches": [
+        {
+          "id": "robotics-engineer",
+          "title": "Robotics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Combine mechanics, electronics, and code to make machines that sense and act.",
+          "score": 85,
+          "components": {
+            "skills": 68,
+            "interests": 100,
+            "academics": 91,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming",
+            "electronics",
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [
+            "technology",
+            "ai",
+            "electronics"
+          ],
+          "reasons": [
+            "Matches 4 of 5 core skills (Programming, Electronics, Problem-solving, Mathematics), several of which you rated as advanced.",
+            "You selected the interests Technology and Artificial intelligence and Electronics and hardware, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Computer science (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Research — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "mechanical"
+          ],
+          "rank": 1
+        },
+        {
+          "id": "electronics-engineer",
+          "title": "Electronics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design, test, and improve the circuits and devices behind modern technology.",
+          "score": 84,
+          "components": {
+            "skills": 85,
+            "interests": 67,
+            "academics": 90,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "electronics",
+            "problem-solving",
+            "mathematics",
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology",
+            "electronics"
+          ],
+          "reasons": [
+            "Matches 4 of 4 core skills (Electronics, Problem-solving, Mathematics, Programming), several of which you rated as advanced.",
+            "You selected the interests Technology and Electronics and hardware, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Science (88%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Research — is central to how this role is carried out."
+          ],
+          "skillGaps": [],
+          "rank": 2
+        },
+        {
+          "id": "machine-learning-engineer",
+          "title": "Machine Learning Engineer",
+          "category": "Data & AI",
+          "shortDescription": "Build models that learn from data to power predictions and recommendations.",
+          "score": 72,
+          "components": {
+            "skills": 56,
+            "interests": 67,
+            "academics": 91,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming",
+            "mathematics",
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology",
+            "ai"
+          ],
+          "reasons": [
+            "Matches 3 of 5 core skills (Programming, Mathematics, Problem-solving), several of which you rated as advanced.",
+            "You selected the interests Technology and Artificial intelligence, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Computer science (90%), Science (88%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Research — is central to how this role is carried out.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "research"
+          ],
+          "rank": 3
+        },
+        {
+          "id": "cybersecurity-analyst",
+          "title": "Cybersecurity Analyst",
+          "category": "Software & Technology",
+          "shortDescription": "Protect systems and data by finding weaknesses and responding to threats.",
+          "score": 68,
+          "components": {
+            "skills": 45,
+            "interests": 67,
+            "academics": 91,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology",
+            "electronics"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Programming), several of which you rated as advanced.",
+            "You selected the interests Technology and Electronics and hardware, which sit at the centre of this work.",
+            "Your marks in Computer science (90%), Mathematics (92%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Research — is central to how this role is carried out.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "communication",
+            "research"
+          ],
+          "rank": 4
+        },
+        {
+          "id": "electrical-engineer",
+          "title": "Electrical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Work with power systems, machines, and the electrical infrastructure around us.",
+          "score": 66,
+          "components": {
+            "skills": 60,
+            "interests": 67,
+            "academics": 90,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "mathematics",
+            "problem-solving",
+            "electronics"
+          ],
+          "matchedInterests": [
+            "technology",
+            "electronics"
+          ],
+          "reasons": [
+            "Matches 3 of 4 core skills (Mathematics, Problem-solving, Electronics), several of which you rated as advanced.",
+            "You selected the interests Technology and Electronics and hardware, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Science (88%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "teamwork"
+          ],
+          "rank": 5
+        },
+        {
+          "id": "embedded-systems-engineer",
+          "title": "Embedded Systems Engineer",
+          "category": "Engineering",
+          "shortDescription": "Write the software that runs inside devices, from appliances to vehicles.",
+          "score": 66,
+          "components": {
+            "skills": 60,
+            "interests": 67,
+            "academics": 91,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming",
+            "electronics",
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology",
+            "electronics"
+          ],
+          "reasons": [
+            "Matches 3 of 4 core skills (Programming, Electronics, Problem-solving), several of which you rated as advanced.",
+            "You selected the interests Technology and Electronics and hardware, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Computer science (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "mechanical"
+          ],
+          "rank": 6
+        },
+        {
+          "id": "data-analyst",
+          "title": "Data Analyst",
+          "category": "Data & AI",
+          "shortDescription": "Turn raw data into clear answers, dashboards, and recommendations for decisions.",
+          "score": 60,
+          "components": {
+            "skills": 45,
+            "interests": 33,
+            "academics": 92,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Mathematics), several of which you rated as advanced.",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Research — is central to how this role is carried out.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "communication"
+          ],
+          "rank": 7
+        },
+        {
+          "id": "software-developer",
+          "title": "Software Developer",
+          "category": "Software & Technology",
+          "shortDescription": "Design and build applications, websites, and systems that people use every day.",
+          "score": 60,
+          "components": {
+            "skills": 45,
+            "interests": 67,
+            "academics": 91,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "programming",
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology",
+            "ai"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Programming, Problem-solving), several of which you rated as advanced.",
+            "You selected the interests Technology and Artificial intelligence, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Computer science (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "teamwork",
+            "communication"
+          ],
+          "rank": 8
+        },
+        {
+          "id": "research-scientist",
+          "title": "Research Scientist",
+          "category": "Science & Research",
+          "shortDescription": "Ask new questions, design studies, and add evidence to a field of knowledge.",
+          "score": 56,
+          "components": {
+            "skills": 36,
+            "interests": 33,
+            "academics": 90,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [
+            "ai"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Problem-solving, Mathematics), several of which you rated as advanced.",
+            "You selected the interests Artificial intelligence, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Science (88%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Research — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "research",
+            "data-analysis",
+            "writing"
+          ],
+          "rank": 9
+        },
+        {
+          "id": "mechanical-engineer",
+          "title": "Mechanical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design and test the physical machines, parts, and systems people rely on.",
+          "score": 52,
+          "components": {
+            "skills": 45,
+            "interests": 33,
+            "academics": 90,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Mathematics), several of which you rated as advanced.",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Science (88%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "mechanical",
+            "teamwork"
+          ],
+          "rank": 10
+        },
+        {
+          "id": "technical-writer",
+          "title": "Technical Writer",
+          "category": "Media & Communication",
+          "shortDescription": "Explain complex products and technology in docs people can actually follow.",
+          "score": 48,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 91,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Computer science (90%), Mathematics (92%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Research — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "writing",
+            "communication",
+            "research",
+            "teamwork"
+          ],
+          "rank": 11
+        },
+        {
+          "id": "civil-engineer",
+          "title": "Civil Engineer",
+          "category": "Engineering",
+          "shortDescription": "Plan and supervise the buildings, roads, and infrastructure communities depend on.",
+          "score": 44,
+          "components": {
+            "skills": 45,
+            "interests": 0,
+            "academics": 90,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "mathematics",
+            "problem-solving"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 2 of 4 core skills (Mathematics, Problem-solving), several of which you rated as advanced.",
+            "Your marks in Mathematics (92%), Science (88%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "teamwork",
+            "communication"
+          ],
+          "rank": 12
+        },
+        {
+          "id": "business-analyst",
+          "title": "Business Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Translate business problems into clear requirements and measurable improvements.",
+          "score": 41,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 91,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Computer science (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "business-analysis",
+            "communication",
+            "data-analysis",
+            "teamwork"
+          ],
+          "rank": 13
+        },
+        {
+          "id": "ui-ux-designer",
+          "title": "UI/UX Designer",
+          "category": "Design & Creative",
+          "shortDescription": "Shape how digital products look, feel, and flow for the people who use them.",
+          "score": 40,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 90,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Computer science (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "design",
+            "creativity",
+            "communication",
+            "research"
+          ],
+          "rank": 14
+        },
+        {
+          "id": "financial-analyst",
+          "title": "Financial Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Study numbers, markets, and reports to guide money-related decisions.",
+          "score": 34,
+          "components": {
+            "skills": 20,
+            "interests": 0,
+            "academics": 92,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "mathematics"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 1 of 5 core skills (Mathematics).",
+            "Your marks in Mathematics (92%), Computer science (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "business-analysis",
+            "communication",
+            "writing"
+          ],
+          "rank": 15
+        },
+        {
+          "id": "digital-marketing-specialist",
+          "title": "Digital Marketing Specialist",
+          "category": "Business & Finance",
+          "shortDescription": "Plan and measure online campaigns that help people discover products and ideas.",
+          "score": 34,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 91,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Computer science (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "communication",
+            "writing",
+            "creativity",
+            "data-analysis",
+            "business-analysis"
+          ],
+          "rank": 16
+        },
+        {
+          "id": "stem-educator",
+          "title": "STEM Educator",
+          "category": "Education",
+          "shortDescription": "Help students understand science, technology, engineering, and maths through teaching.",
+          "score": 34,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 90,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (92%), Science (88%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Research — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "communication",
+            "leadership",
+            "teamwork",
+            "research",
+            "writing"
+          ],
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "name": "partial_skills_interests",
+      "profile": {
+        "name": "",
+        "education": "bachelor",
+        "branch": "computer-science",
+        "percent": null,
+        "country": "",
+        "skills": {
+          "programming": 4,
+          "problem-solving": 3,
+          "teamwork": 4
+        },
+        "interests": [
+          "technology",
+          "data"
+        ],
+        "subjects": {},
+        "workStyles": []
+      },
+      "status": "ok",
+      "source": "local-rule-based",
+      "coverage": 65,
+      "topN": 5,
+      "message": null,
+      "order": [
+        "software-developer",
+        "business-analyst",
+        "machine-learning-engineer",
+        "data-analyst",
+        "cybersecurity-analyst",
+        "electrical-engineer",
+        "electronics-engineer",
+        "embedded-systems-engineer",
+        "mechanical-engineer",
+        "robotics-engineer",
+        "technical-writer",
+        "stem-educator",
+        "research-scientist",
+        "ui-ux-designer",
+        "civil-engineer",
+        "digital-marketing-specialist",
+        "financial-analyst"
+      ],
+      "matches": [
+        {
+          "id": "software-developer",
+          "title": "Software Developer",
+          "category": "Software & Technology",
+          "shortDescription": "Design and build applications, websites, and systems that people use every day.",
+          "score": 60,
+          "components": {
+            "skills": 55,
+            "interests": 100,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "programming",
+            "problem-solving",
+            "teamwork"
+          ],
+          "matchedInterests": [
+            "technology",
+            "data"
+          ],
+          "reasons": [
+            "Matches 3 of 4 core skills (Programming, Problem-solving, Teamwork), several of which you rated as advanced.",
+            "You selected the interests Technology and Data and analytics, which sit at the centre of this work.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "communication"
+          ],
+          "rank": 1
+        },
+        {
+          "id": "business-analyst",
+          "title": "Business Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Translate business problems into clear requirements and measurable improvements.",
+          "score": 46,
+          "components": {
+            "skills": 28,
+            "interests": 100,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "teamwork"
+          ],
+          "matchedInterests": [
+            "technology",
+            "data"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Problem-solving, Teamwork).",
+            "You selected the interests Technology and Data and analytics, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "business-analysis",
+            "communication",
+            "data-analysis"
+          ],
+          "rank": 2
+        },
+        {
+          "id": "machine-learning-engineer",
+          "title": "Machine Learning Engineer",
+          "category": "Data & AI",
+          "shortDescription": "Build models that learn from data to power predictions and recommendations.",
+          "score": 46,
+          "components": {
+            "skills": 28,
+            "interests": 100,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "programming",
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology",
+            "data"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Programming, Problem-solving).",
+            "You selected the interests Technology and Data and analytics, which sit at the centre of this work.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "data-analysis",
+            "research"
+          ],
+          "rank": 3
+        },
+        {
+          "id": "data-analyst",
+          "title": "Data Analyst",
+          "category": "Data & AI",
+          "shortDescription": "Turn raw data into clear answers, dashboards, and recommendations for decisions.",
+          "score": 39,
+          "components": {
+            "skills": 15,
+            "interests": 100,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology",
+            "data"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Problem-solving).",
+            "You selected the interests Technology and Data and analytics, which sit at the centre of this work.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "communication",
+            "mathematics"
+          ],
+          "rank": 4
+        },
+        {
+          "id": "cybersecurity-analyst",
+          "title": "Cybersecurity Analyst",
+          "category": "Software & Technology",
+          "shortDescription": "Protect systems and data by finding weaknesses and responding to threats.",
+          "score": 34,
+          "components": {
+            "skills": 35,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Programming).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your academic background (Computer science / IT) relates directly to this field."
+          ],
+          "skillGaps": [
+            "communication",
+            "research"
+          ],
+          "rank": 5
+        },
+        {
+          "id": "electrical-engineer",
+          "title": "Electrical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Work with power systems, machines, and the electrical infrastructure around us.",
+          "score": 34,
+          "components": {
+            "skills": 35,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "teamwork"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Teamwork).",
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "electronics"
+          ],
+          "rank": 6
+        },
+        {
+          "id": "electronics-engineer",
+          "title": "Electronics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design, test, and improve the circuits and devices behind modern technology.",
+          "score": 34,
+          "components": {
+            "skills": 35,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "programming"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Programming).",
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "electronics",
+            "mathematics"
+          ],
+          "rank": 7
+        },
+        {
+          "id": "embedded-systems-engineer",
+          "title": "Embedded Systems Engineer",
+          "category": "Engineering",
+          "shortDescription": "Write the software that runs inside devices, from appliances to vehicles.",
+          "score": 34,
+          "components": {
+            "skills": 35,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "programming",
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Programming, Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "electronics",
+            "mechanical"
+          ],
+          "rank": 8
+        },
+        {
+          "id": "mechanical-engineer",
+          "title": "Mechanical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design and test the physical machines, parts, and systems people rely on.",
+          "score": 34,
+          "components": {
+            "skills": 35,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "teamwork"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Teamwork).",
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "mechanical",
+            "mathematics"
+          ],
+          "rank": 9
+        },
+        {
+          "id": "robotics-engineer",
+          "title": "Robotics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Combine mechanics, electronics, and code to make machines that sense and act.",
+          "score": 30,
+          "components": {
+            "skills": 28,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "programming",
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Programming, Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "electronics",
+            "mechanical",
+            "mathematics"
+          ],
+          "rank": 10
+        },
+        {
+          "id": "technical-writer",
+          "title": "Technical Writer",
+          "category": "Media & Communication",
+          "shortDescription": "Explain complex products and technology in docs people can actually follow.",
+          "score": 30,
+          "components": {
+            "skills": 28,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "teamwork"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Problem-solving, Teamwork).",
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "writing",
+            "communication",
+            "research"
+          ],
+          "rank": 11
+        },
+        {
+          "id": "stem-educator",
+          "title": "STEM Educator",
+          "category": "Education",
+          "shortDescription": "Help students understand science, technology, engineering, and maths through teaching.",
+          "score": 24,
+          "components": {
+            "skills": 16,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "teamwork"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Teamwork).",
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "communication",
+            "leadership",
+            "research",
+            "writing"
+          ],
+          "rank": 12
+        },
+        {
+          "id": "research-scientist",
+          "title": "Research Scientist",
+          "category": "Science & Research",
+          "shortDescription": "Ask new questions, design studies, and add evidence to a field of knowledge.",
+          "score": 22,
+          "components": {
+            "skills": 12,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "data"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Problem-solving).",
+            "You selected the interests Data and analytics, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "research",
+            "data-analysis",
+            "writing",
+            "mathematics"
+          ],
+          "rank": 13
+        },
+        {
+          "id": "ui-ux-designer",
+          "title": "UI/UX Designer",
+          "category": "Design & Creative",
+          "shortDescription": "Shape how digital products look, feel, and flow for the people who use them.",
+          "score": 22,
+          "components": {
+            "skills": 12,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "design",
+            "creativity",
+            "communication",
+            "research"
+          ],
+          "rank": 14
+        },
+        {
+          "id": "civil-engineer",
+          "title": "Civil Engineer",
+          "category": "Engineering",
+          "shortDescription": "Plan and supervise the buildings, roads, and infrastructure communities depend on.",
+          "score": 18,
+          "components": {
+            "skills": 35,
+            "interests": 0,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "teamwork"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Teamwork)."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "communication"
+          ],
+          "rank": 15
+        },
+        {
+          "id": "digital-marketing-specialist",
+          "title": "Digital Marketing Specialist",
+          "category": "Business & Finance",
+          "shortDescription": "Plan and measure online campaigns that help people discover products and ideas.",
+          "score": 16,
+          "components": {
+            "skills": 0,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "communication",
+            "writing",
+            "creativity",
+            "data-analysis",
+            "business-analysis"
+          ],
+          "rank": 16
+        },
+        {
+          "id": "financial-analyst",
+          "title": "Financial Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Study numbers, markets, and reports to guide money-related decisions.",
+          "score": 16,
+          "components": {
+            "skills": 0,
+            "interests": 50,
+            "academics": null,
+            "preferences": null
+          },
+          "weightsUsed": {
+            "skills": 0.6153846153846154,
+            "interests": 0.3846153846153846
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "data"
+          ],
+          "reasons": [
+            "You selected the interests Data and analytics, which sit at the centre of this work."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "mathematics",
+            "business-analysis",
+            "communication",
+            "writing"
+          ],
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "name": "business_focus",
+      "profile": {
+        "name": "",
+        "education": "bachelor",
+        "branch": "commerce",
+        "percent": 78,
+        "country": "",
+        "skills": {
+          "communication": 4,
+          "leadership": 3,
+          "writing": 5,
+          "business-analysis": 4
+        },
+        "interests": [
+          "business",
+          "finance",
+          "media"
+        ],
+        "subjects": {
+          "english": 85,
+          "mathematics": 70
+        },
+        "workStyles": [
+          "business",
+          "people"
+        ]
+      },
+      "status": "ok",
+      "source": "local-rule-based",
+      "coverage": 100,
+      "topN": 5,
+      "message": null,
+      "order": [
+        "digital-marketing-specialist",
+        "financial-analyst",
+        "business-analyst",
+        "stem-educator",
+        "ui-ux-designer",
+        "technical-writer",
+        "civil-engineer",
+        "data-analyst",
+        "cybersecurity-analyst",
+        "research-scientist",
+        "software-developer",
+        "electrical-engineer",
+        "electronics-engineer",
+        "embedded-systems-engineer",
+        "machine-learning-engineer",
+        "mechanical-engineer",
+        "robotics-engineer"
+      ],
+      "matches": [
+        {
+          "id": "digital-marketing-specialist",
+          "title": "Digital Marketing Specialist",
+          "category": "Business & Finance",
+          "shortDescription": "Plan and measure online campaigns that help people discover products and ideas.",
+          "score": 61,
+          "components": {
+            "skills": 52,
+            "interests": 67,
+            "academics": 79,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication",
+            "writing",
+            "business-analysis"
+          ],
+          "matchedInterests": [
+            "business",
+            "media"
+          ],
+          "reasons": [
+            "Matches 3 of 5 core skills (Communication, Writing, Business analysis), several of which you rated as advanced.",
+            "You selected the interests Business and entrepreneurship and Media and communication, which sit at the centre of this work.",
+            "Your marks in English (85%), Mathematics (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Business and management — is central to how this role is carried out.",
+            "Your academic background (Commerce) relates directly to this field."
+          ],
+          "skillGaps": [
+            "creativity",
+            "data-analysis"
+          ],
+          "rank": 1
+        },
+        {
+          "id": "financial-analyst",
+          "title": "Financial Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Study numbers, markets, and reports to guide money-related decisions.",
+          "score": 60,
+          "components": {
+            "skills": 52,
+            "interests": 67,
+            "academics": 76,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "business-analysis",
+            "communication",
+            "writing"
+          ],
+          "matchedInterests": [
+            "business",
+            "finance"
+          ],
+          "reasons": [
+            "Matches 3 of 5 core skills (Business analysis, Communication, Writing), several of which you rated as advanced.",
+            "You selected the interests Business and entrepreneurship and Finance, which sit at the centre of this work.",
+            "Your marks in Mathematics (70%), English (85%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Business and management — is central to how this role is carried out.",
+            "Your academic background (Commerce) relates directly to this field."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "mathematics"
+          ],
+          "rank": 2
+        },
+        {
+          "id": "business-analyst",
+          "title": "Business Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Translate business problems into clear requirements and measurable improvements.",
+          "score": 60,
+          "components": {
+            "skills": 32,
+            "interests": 67,
+            "academics": 78,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "business-analysis",
+            "communication"
+          ],
+          "matchedInterests": [
+            "business",
+            "finance"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Business analysis, Communication), several of which you rated as advanced.",
+            "You selected the interests Business and entrepreneurship and Finance, which sit at the centre of this work.",
+            "Your marks in Mathematics (70%), English (85%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Business and management, People-oriented work — is central to how this role is carried out.",
+            "Your academic background (Commerce) relates directly to this field."
+          ],
+          "skillGaps": [
+            "problem-solving",
+            "data-analysis",
+            "teamwork"
+          ],
+          "rank": 3
+        },
+        {
+          "id": "stem-educator",
+          "title": "STEM Educator",
+          "category": "Education",
+          "shortDescription": "Help students understand science, technology, engineering, and maths through teaching.",
+          "score": 42,
+          "components": {
+            "skills": 48,
+            "interests": 0,
+            "academics": 78,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication",
+            "leadership",
+            "writing"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 3 of 5 core skills (Communication, Leadership, Writing), several of which you rated as advanced.",
+            "Your marks in Mathematics (70%), English (85%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — People-oriented work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "teamwork",
+            "research"
+          ],
+          "rank": 4
+        },
+        {
+          "id": "ui-ux-designer",
+          "title": "UI/UX Designer",
+          "category": "Design & Creative",
+          "shortDescription": "Shape how digital products look, feel, and flow for the people who use them.",
+          "score": 40,
+          "components": {
+            "skills": 16,
+            "interests": 67,
+            "academics": 85,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [
+            "business",
+            "media"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Communication).",
+            "You selected the interests Business and entrepreneurship and Media and communication, which sit at the centre of this work.",
+            "Your marks in English (85%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "design",
+            "creativity",
+            "problem-solving",
+            "research"
+          ],
+          "rank": 5
+        },
+        {
+          "id": "technical-writer",
+          "title": "Technical Writer",
+          "category": "Media & Communication",
+          "shortDescription": "Explain complex products and technology in docs people can actually follow.",
+          "score": 39,
+          "components": {
+            "skills": 36,
+            "interests": 33,
+            "academics": 82,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing",
+            "communication"
+          ],
+          "matchedInterests": [
+            "media"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Writing, Communication), several of which you rated as advanced.",
+            "You selected the interests Media and communication, which sit at the centre of this work.",
+            "Your marks in English (85%), Mathematics (70%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "research",
+            "problem-solving",
+            "teamwork"
+          ],
+          "rank": 6
+        },
+        {
+          "id": "civil-engineer",
+          "title": "Civil Engineer",
+          "category": "Engineering",
+          "shortDescription": "Plan and supervise the buildings, roads, and infrastructure communities depend on.",
+          "score": 38,
+          "components": {
+            "skills": 20,
+            "interests": 33,
+            "academics": 70,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [
+            "business"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Communication).",
+            "You selected the interests Business and entrepreneurship, which sit at the centre of this work.",
+            "Your marks in Mathematics (70%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Business and management — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "problem-solving",
+            "teamwork"
+          ],
+          "rank": 7
+        },
+        {
+          "id": "data-analyst",
+          "title": "Data Analyst",
+          "category": "Data & AI",
+          "shortDescription": "Turn raw data into clear answers, dashboards, and recommendations for decisions.",
+          "score": 31,
+          "components": {
+            "skills": 20,
+            "interests": 33,
+            "academics": 75,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [
+            "business"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Communication).",
+            "You selected the interests Business and entrepreneurship, which sit at the centre of this work.",
+            "Your marks in Mathematics (70%), English (85%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 8
+        },
+        {
+          "id": "cybersecurity-analyst",
+          "title": "Cybersecurity Analyst",
+          "category": "Software & Technology",
+          "shortDescription": "Protect systems and data by finding weaknesses and responding to threats.",
+          "score": 24,
+          "components": {
+            "skills": 20,
+            "interests": 0,
+            "academics": 78,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 1 of 4 core skills (Communication).",
+            "Your marks in Mathematics (70%), English (85%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "problem-solving",
+            "programming",
+            "research"
+          ],
+          "rank": 9
+        },
+        {
+          "id": "research-scientist",
+          "title": "Research Scientist",
+          "category": "Science & Research",
+          "shortDescription": "Ask new questions, design studies, and add evidence to a field of knowledge.",
+          "score": 23,
+          "components": {
+            "skills": 20,
+            "interests": 0,
+            "academics": 77,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "writing"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 1 of 5 core skills (Writing).",
+            "Your marks in Mathematics (70%), English (85%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "research",
+            "data-analysis",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 10
+        },
+        {
+          "id": "software-developer",
+          "title": "Software Developer",
+          "category": "Software & Technology",
+          "shortDescription": "Design and build applications, websites, and systems that people use every day.",
+          "score": 23,
+          "components": {
+            "skills": 20,
+            "interests": 0,
+            "academics": 76,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "communication"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 1 of 4 core skills (Communication).",
+            "Your marks in Mathematics (70%), English (85%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "programming",
+            "problem-solving",
+            "teamwork"
+          ],
+          "rank": 11
+        },
+        {
+          "id": "electrical-engineer",
+          "title": "Electrical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Work with power systems, machines, and the electrical infrastructure around us.",
+          "score": 14,
+          "components": {
+            "skills": 0,
+            "interests": 0,
+            "academics": 70,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [],
+          "reasons": [
+            "Your marks in Mathematics (70%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "mathematics",
+            "problem-solving",
+            "electronics",
+            "teamwork"
+          ],
+          "rank": 12
+        },
+        {
+          "id": "electronics-engineer",
+          "title": "Electronics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design, test, and improve the circuits and devices behind modern technology.",
+          "score": 14,
+          "components": {
+            "skills": 0,
+            "interests": 0,
+            "academics": 70,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [],
+          "reasons": [
+            "Your marks in Mathematics (70%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "electronics",
+            "problem-solving",
+            "mathematics",
+            "programming"
+          ],
+          "rank": 13
+        },
+        {
+          "id": "embedded-systems-engineer",
+          "title": "Embedded Systems Engineer",
+          "category": "Engineering",
+          "shortDescription": "Write the software that runs inside devices, from appliances to vehicles.",
+          "score": 14,
+          "components": {
+            "skills": 0,
+            "interests": 0,
+            "academics": 70,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [],
+          "reasons": [
+            "Your marks in Mathematics (70%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "programming",
+            "electronics",
+            "problem-solving",
+            "mechanical"
+          ],
+          "rank": 14
+        },
+        {
+          "id": "machine-learning-engineer",
+          "title": "Machine Learning Engineer",
+          "category": "Data & AI",
+          "shortDescription": "Build models that learn from data to power predictions and recommendations.",
+          "score": 14,
+          "components": {
+            "skills": 0,
+            "interests": 0,
+            "academics": 70,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [],
+          "reasons": [
+            "Your marks in Mathematics (70%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "programming",
+            "mathematics",
+            "data-analysis",
+            "research",
+            "problem-solving"
+          ],
+          "rank": 15
+        },
+        {
+          "id": "mechanical-engineer",
+          "title": "Mechanical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design and test the physical machines, parts, and systems people rely on.",
+          "score": 14,
+          "components": {
+            "skills": 0,
+            "interests": 0,
+            "academics": 70,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [],
+          "reasons": [
+            "Your marks in Mathematics (70%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "mechanical",
+            "problem-solving",
+            "mathematics",
+            "teamwork"
+          ],
+          "rank": 16
+        },
+        {
+          "id": "robotics-engineer",
+          "title": "Robotics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Combine mechanics, electronics, and code to make machines that sense and act.",
+          "score": 14,
+          "components": {
+            "skills": 0,
+            "interests": 0,
+            "academics": 70,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [],
+          "reasons": [
+            "Your marks in Mathematics (70%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "programming",
+            "electronics",
+            "mechanical",
+            "problem-solving",
+            "mathematics"
+          ],
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "name": "insufficient",
+      "profile": {
+        "name": "",
+        "education": "bachelor",
+        "branch": "science",
+        "percent": null,
+        "country": "",
+        "skills": {
+          "programming": 4,
+          "design": 3,
+          "mathematics": 2
+        },
+        "interests": [],
+        "subjects": {},
+        "workStyles": []
+      },
+      "status": "insufficient",
+      "source": "local-rule-based",
+      "coverage": null,
+      "topN": null,
+      "message": "There is not enough information to rank careers yet. Please complete at least two sections of the assessment (skills, interests, academics, or work preferences).",
+      "order": [],
+      "matches": []
+    },
+    {
+      "name": "engineering_electrical",
+      "profile": {
+        "name": "",
+        "education": "bachelor",
+        "branch": "electrical",
+        "percent": 82,
+        "country": "",
+        "skills": {
+          "electronics": 5,
+          "mathematics": 4,
+          "problem-solving": 4,
+          "mechanical": 2
+        },
+        "interests": [
+          "electronics",
+          "technology",
+          "mechanical"
+        ],
+        "subjects": {
+          "mathematics": 84,
+          "science": 80,
+          "technical": 90
+        },
+        "workStyles": [
+          "technical",
+          "practical"
+        ]
+      },
+      "status": "ok",
+      "source": "local-rule-based",
+      "coverage": 100,
+      "topN": 5,
+      "message": null,
+      "order": [
+        "electrical-engineer",
+        "robotics-engineer",
+        "embedded-systems-engineer",
+        "electronics-engineer",
+        "mechanical-engineer",
+        "civil-engineer",
+        "data-analyst",
+        "cybersecurity-analyst",
+        "machine-learning-engineer",
+        "software-developer",
+        "ui-ux-designer",
+        "business-analyst",
+        "technical-writer",
+        "research-scientist",
+        "digital-marketing-specialist",
+        "financial-analyst",
+        "stem-educator"
+      ],
+      "matches": [
+        {
+          "id": "electrical-engineer",
+          "title": "Electrical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Work with power systems, machines, and the electrical infrastructure around us.",
+          "score": 83,
+          "components": {
+            "skills": 65,
+            "interests": 100,
+            "academics": 85,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "mathematics",
+            "problem-solving",
+            "electronics"
+          ],
+          "matchedInterests": [
+            "electronics",
+            "technology",
+            "mechanical"
+          ],
+          "reasons": [
+            "Matches 3 of 4 core skills (Mathematics, Problem-solving, Electronics), several of which you rated as advanced.",
+            "You selected the interests Electronics and hardware and Technology and Mechanical systems, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Science (80%), Technical subjects (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Practical, hands-on work — is central to how this role is carried out.",
+            "Your academic background (Electrical engineering) relates directly to this field."
+          ],
+          "skillGaps": [
+            "teamwork"
+          ],
+          "rank": 1
+        },
+        {
+          "id": "robotics-engineer",
+          "title": "Robotics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Combine mechanics, electronics, and code to make machines that sense and act.",
+          "score": 81,
+          "components": {
+            "skills": 60,
+            "interests": 100,
+            "academics": 87,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "electronics",
+            "mechanical",
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [
+            "electronics",
+            "technology",
+            "mechanical"
+          ],
+          "reasons": [
+            "Matches 4 of 5 core skills (Electronics, Mechanical aptitude, Problem-solving, Mathematics), several of which you rated as advanced.",
+            "You selected the interests Electronics and hardware and Technology and Mechanical systems, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Technical subjects (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Practical, hands-on work — is central to how this role is carried out.",
+            "Your academic background (Electrical engineering) relates directly to this field."
+          ],
+          "skillGaps": [
+            "programming"
+          ],
+          "rank": 2
+        },
+        {
+          "id": "embedded-systems-engineer",
+          "title": "Embedded Systems Engineer",
+          "category": "Engineering",
+          "shortDescription": "Write the software that runs inside devices, from appliances to vehicles.",
+          "score": 79,
+          "components": {
+            "skills": 55,
+            "interests": 100,
+            "academics": 87,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "electronics",
+            "problem-solving",
+            "mechanical"
+          ],
+          "matchedInterests": [
+            "electronics",
+            "technology",
+            "mechanical"
+          ],
+          "reasons": [
+            "Matches 3 of 4 core skills (Electronics, Problem-solving, Mechanical aptitude), several of which you rated as advanced.",
+            "You selected the interests Electronics and hardware and Technology and Mechanical systems, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Technical subjects (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Practical, hands-on work — is central to how this role is carried out.",
+            "Your academic background (Electrical engineering) relates directly to this field."
+          ],
+          "skillGaps": [
+            "programming"
+          ],
+          "rank": 3
+        },
+        {
+          "id": "electronics-engineer",
+          "title": "Electronics Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design, test, and improve the circuits and devices behind modern technology.",
+          "score": 75,
+          "components": {
+            "skills": 65,
+            "interests": 67,
+            "academics": 85,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "electronics",
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [
+            "electronics",
+            "technology"
+          ],
+          "reasons": [
+            "Matches 3 of 4 core skills (Electronics, Problem-solving, Mathematics), several of which you rated as advanced.",
+            "You selected the interests Electronics and hardware and Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Science (80%), Technical subjects (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Practical, hands-on work — is central to how this role is carried out.",
+            "Your academic background (Electrical engineering) relates directly to this field."
+          ],
+          "skillGaps": [
+            "programming"
+          ],
+          "rank": 4
+        },
+        {
+          "id": "mechanical-engineer",
+          "title": "Mechanical Engineer",
+          "category": "Engineering",
+          "shortDescription": "Design and test the physical machines, parts, and systems people rely on.",
+          "score": 69,
+          "components": {
+            "skills": 50,
+            "interests": 67,
+            "academics": 85,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "mechanical",
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [
+            "technology",
+            "mechanical"
+          ],
+          "reasons": [
+            "Matches 3 of 4 core skills (Mechanical aptitude, Problem-solving, Mathematics), several of which you rated as advanced.",
+            "You selected the interests Technology and Mechanical systems, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Science (80%), Technical subjects (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Practical, hands-on work — is central to how this role is carried out.",
+            "Your academic background (Electrical engineering) relates directly to this field."
+          ],
+          "skillGaps": [
+            "teamwork"
+          ],
+          "rank": 5
+        },
+        {
+          "id": "civil-engineer",
+          "title": "Civil Engineer",
+          "category": "Engineering",
+          "shortDescription": "Plan and supervise the buildings, roads, and infrastructure communities depend on.",
+          "score": 56,
+          "components": {
+            "skills": 40,
+            "interests": 33,
+            "academics": 85,
+            "preferences": 100
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "mathematics",
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "mechanical"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Mathematics, Problem-solving), several of which you rated as advanced.",
+            "You selected the interests Mechanical systems, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Science (80%), Technical subjects (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work, Practical, hands-on work — is central to how this role is carried out.",
+            "Your academic background (Electrical engineering) relates directly to this field."
+          ],
+          "skillGaps": [
+            "teamwork",
+            "communication"
+          ],
+          "rank": 6
+        },
+        {
+          "id": "data-analyst",
+          "title": "Data Analyst",
+          "category": "Data & AI",
+          "shortDescription": "Turn raw data into clear answers, dashboards, and recommendations for decisions.",
+          "score": 49,
+          "components": {
+            "skills": 40,
+            "interests": 33,
+            "academics": 86,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 4 core skills (Problem-solving, Mathematics), several of which you rated as advanced.",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Technical subjects (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "communication"
+          ],
+          "rank": 7
+        },
+        {
+          "id": "cybersecurity-analyst",
+          "title": "Cybersecurity Analyst",
+          "category": "Software & Technology",
+          "shortDescription": "Protect systems and data by finding weaknesses and responding to threats.",
+          "score": 49,
+          "components": {
+            "skills": 20,
+            "interests": 67,
+            "academics": 84,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "electronics",
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Problem-solving).",
+            "You selected the interests Electronics and hardware and Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "programming",
+            "communication",
+            "research"
+          ],
+          "rank": 8
+        },
+        {
+          "id": "machine-learning-engineer",
+          "title": "Machine Learning Engineer",
+          "category": "Data & AI",
+          "shortDescription": "Build models that learn from data to power predictions and recommendations.",
+          "score": 45,
+          "components": {
+            "skills": 32,
+            "interests": 33,
+            "academics": 83,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "mathematics",
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 2 of 5 core skills (Mathematics, Problem-solving), several of which you rated as advanced.",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Science (80%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "programming",
+            "data-analysis",
+            "research"
+          ],
+          "rank": 9
+        },
+        {
+          "id": "software-developer",
+          "title": "Software Developer",
+          "category": "Software & Technology",
+          "shortDescription": "Design and build applications, websites, and systems that people use every day.",
+          "score": 41,
+          "components": {
+            "skills": 20,
+            "interests": 33,
+            "academics": 84,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 4 core skills (Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "programming",
+            "teamwork",
+            "communication"
+          ],
+          "rank": 10
+        },
+        {
+          "id": "ui-ux-designer",
+          "title": "UI/UX Designer",
+          "category": "Design & Creative",
+          "shortDescription": "Shape how digital products look, feel, and flow for the people who use them.",
+          "score": 40,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 90,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Technical subjects (90%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "design",
+            "creativity",
+            "communication",
+            "research"
+          ],
+          "rank": 11
+        },
+        {
+          "id": "business-analyst",
+          "title": "Business Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Translate business problems into clear requirements and measurable improvements.",
+          "score": 39,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 84,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "business-analysis",
+            "communication",
+            "data-analysis",
+            "teamwork"
+          ],
+          "rank": 12
+        },
+        {
+          "id": "technical-writer",
+          "title": "Technical Writer",
+          "category": "Media & Communication",
+          "shortDescription": "Explain complex products and technology in docs people can actually follow.",
+          "score": 39,
+          "components": {
+            "skills": 16,
+            "interests": 33,
+            "academics": 84,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving"
+          ],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "Matches 1 of 5 core skills (Problem-solving).",
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "writing",
+            "communication",
+            "research",
+            "teamwork"
+          ],
+          "rank": 13
+        },
+        {
+          "id": "research-scientist",
+          "title": "Research Scientist",
+          "category": "Science & Research",
+          "shortDescription": "Ask new questions, design studies, and add evidence to a field of knowledge.",
+          "score": 37,
+          "components": {
+            "skills": 32,
+            "interests": 0,
+            "academics": 82,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "problem-solving",
+            "mathematics"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 2 of 5 core skills (Problem-solving, Mathematics), several of which you rated as advanced.",
+            "Your marks in Mathematics (84%), Science (80%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "research",
+            "data-analysis",
+            "writing"
+          ],
+          "rank": 14
+        },
+        {
+          "id": "digital-marketing-specialist",
+          "title": "Digital Marketing Specialist",
+          "category": "Business & Finance",
+          "shortDescription": "Plan and measure online campaigns that help people discover products and ideas.",
+          "score": 33,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 84,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "communication",
+            "writing",
+            "creativity",
+            "data-analysis",
+            "business-analysis"
+          ],
+          "rank": 15
+        },
+        {
+          "id": "financial-analyst",
+          "title": "Financial Analyst",
+          "category": "Business & Finance",
+          "shortDescription": "Study numbers, markets, and reports to guide money-related decisions.",
+          "score": 31,
+          "components": {
+            "skills": 16,
+            "interests": 0,
+            "academics": 84,
+            "preferences": 50
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [
+            "mathematics"
+          ],
+          "matchedInterests": [],
+          "reasons": [
+            "Matches 1 of 5 core skills (Mathematics).",
+            "Your marks in Mathematics (84%) are relevant to this career's typical subject focus.",
+            "Your preferred work style — Technical and analytical work — is central to how this role is carried out."
+          ],
+          "skillGaps": [
+            "data-analysis",
+            "business-analysis",
+            "communication",
+            "writing"
+          ],
+          "rank": 16
+        },
+        {
+          "id": "stem-educator",
+          "title": "STEM Educator",
+          "category": "Education",
+          "shortDescription": "Help students understand science, technology, engineering, and maths through teaching.",
+          "score": 25,
+          "components": {
+            "skills": 0,
+            "interests": 33,
+            "academics": 82,
+            "preferences": 0
+          },
+          "weightsUsed": {
+            "skills": 0.4,
+            "interests": 0.25,
+            "academics": 0.2,
+            "preferences": 0.15
+          },
+          "matchedSkills": [],
+          "matchedInterests": [
+            "technology"
+          ],
+          "reasons": [
+            "You selected the interests Technology, which sit at the centre of this work.",
+            "Your marks in Mathematics (84%), Science (80%) are relevant to this career's typical subject focus."
+          ],
+          "skillGaps": [
+            "communication",
+            "leadership",
+            "teamwork",
+            "research",
+            "writing"
+          ],
+          "rank": 17
+        }
+      ]
+    }
+  ]
+}
